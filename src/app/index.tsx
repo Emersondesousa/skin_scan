@@ -1,3 +1,4 @@
+import { router } from "expo-router";
 import { Image, StyleSheet, Text, View } from "react-native";
 import { Button } from "./components/button";
 
@@ -11,10 +12,9 @@ export default function Index(){
             <View style={styles.containerTittle}>
                 <Text style={styles.title}>Bem-vindo ao SkinScan</Text>
                 <Text style={styles.subtitle}>Avaliação inteligente para apoiar o cuidado ao paciente.</Text>
-                <Button label="Entrar" style={styles.button} />
+                <Button label="Entrar" style={styles.button} onPress={() => router.push("/assistant")}/>
             </View>
         </View>
-
     )    
 }
 
