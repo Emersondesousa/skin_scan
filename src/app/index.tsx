@@ -7,7 +7,7 @@ export default function Index(){
         <View style={styles.container}>
             <View style={styles.containerLogo}>
                 <Image
-                source={require("../../assets/images/logo.png")} style={styles.illustration}/>
+                source={require("../../assets/images/logo_2.png")} style={styles.illustration}/>
             </View>
             <View style={styles.containerTittle}>
                 <Text style={styles.title}>Bem-vindo ao SkinScan</Text>
