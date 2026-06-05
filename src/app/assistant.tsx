@@ -1,14 +1,12 @@
+import Cabecalho from "@/app/components/header";
 import { Input } from "@/app/components/input";
-import Feather from '@expo/vector-icons/Feather';
-import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, TouchableOpacity, View } from "react-native";
+import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, View } from "react-native";
 
 
 export default function agentIa() {
     return (
         <View style={styles.container}>
-            <TouchableOpacity>
-                <Feather name="align-justify" size={34} color="black" style={styles.feather} />
-            </TouchableOpacity>
+            <Cabecalho></Cabecalho>
             <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ios: "padding", android: "height"})}>
                 <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsHorizontalScrollIndicator={false}>
                 </ScrollView>
@@ -26,7 +24,4 @@ const styles = StyleSheet.create({
     input: {
         marginBottom: 10
     },
-    feather: {
-        marginLeft: 5,
-    }
 })

@@ -1,5 +1,10 @@
-import { Stack } from "expo-router"
+import { Drawer } from "expo-router/drawer";
+import DrawerContent from "./components/drawerOptions";
 
 export default function Layout() {
-    return <Stack screenOptions={{ headerShown: false }}></Stack>
+  return (
+    <Drawer screenOptions={{headerShown: false, drawerStyle: {width: 220}}} drawerContent={() => <DrawerContent/>}>
+      <Drawer.Screen name="assistant"/>
+    </Drawer>
+  );
 }
