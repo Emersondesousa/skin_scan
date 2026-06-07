@@ -16,7 +16,7 @@ export function Input({style, ...rest}: InputProps) {
             <TouchableOpacity onPress={() => setVisible(!visible)}>
                 <Ionicons name="add-circle" size={35} color="#008080"/>
             </TouchableOpacity>
-            <TextInput style={styles.input} {...rest}/>  
+            <TextInput style={styles.input} placeholderTextColor="#9CA3AF" {...rest}/>  
             <TouchableOpacity>
                 <EvilIcons name="arrow-up" size={45} color="black"/>
             </TouchableOpacity>
@@ -26,13 +26,14 @@ export function Input({style, ...rest}: InputProps) {
 const styles = StyleSheet.create({
     input: {
         width: "100%",
+        color: "#FFFFFF",
         height: 48,
-        // borderWidth: 1,
-        borderColor: "#DCDCDC",
         borderRadius: 13,
+        borderWidth: 0,
         fontSize: 20,
         paddingLeft: 16,
         marginLeft: 5,
+        outlineStyle: "none" as any,
     },
     container: {
         flexDirection: "row",

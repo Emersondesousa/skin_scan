@@ -9,6 +9,7 @@ export default function agentIa() {
             <Cabecalho></Cabecalho>
             <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ios: "padding", android: "height"})}>
                 <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsHorizontalScrollIndicator={false}>
+                    
                 </ScrollView>
                 <Input style={styles.input} placeholder="Descreva a lesão..."></Input>
             </KeyboardAvoidingView>
@@ -19,9 +20,9 @@ export default function agentIa() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#008080",
+        backgroundColor: "#f5f6f8",
     },
     input: {
-        marginBottom: 10
+        marginBottom: 10,
     },
 })

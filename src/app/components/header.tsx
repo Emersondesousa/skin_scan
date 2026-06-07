@@ -21,7 +21,7 @@ export default function Cabecalho() {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "#ffff",
+        backgroundColor: "#DCDCDC",
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center"
