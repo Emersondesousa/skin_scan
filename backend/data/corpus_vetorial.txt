@@ -1,0 +1,2163 @@
+======================================================================
+DOCUMENTO: CPWSC_Guia_PU_A5_d7
+ORIGEM: CPWSC_Guia_PU_A5_d7.pdf
+======================================================================
+
+Úlceras por pressão:
+Prevenção e tratamento
+Um guia rápido da Coloplast
+Biatain® – a escolha simples
+Índice
+Úlceras por pressão - Prevenção e Tratamento
+O que é uma úlcera por pressão?
+Como surgem as úlceras por pressão?
+Quais os riscos para adquirir úlceras por pressão?
+Prevalência das úlceras por pressão
+Fatores de risco
+A escala de Braden para predizer o risco da úlcera por pressão
+Prevenção das úlceras por pressão
+Protocolos de prevenção por nível de risco
+Sistema de classificação internacional da úlcera por pressão
+pela NPUAP-EPUAP
+Tratamento das úlceras por pressão
+Infecção da ferida
+Soluções da Coloplast para úlceras por pressão
+Biatain - Absorção Superior para uma cicratização mais rápida
+Outros produtos da Coloplast para úlceras por pressão
+Referências
+Úlceras por pressão
+- prevenção e tratamento
+Úlceras por pressão
+- prevenção e tratamento
+Este guia rápido da Coloplast foi revisado e atualizado por:
+Suely Rodrigues Thuler
+Enfermeira Estomaterapeuta TiSOBEST, Especialista em Podia-
+tria pela Universidade Federal de São Paulo. Membro titulado da
+SOBEST - Associação Brasileira de Estomaterapia: estomais, fe-
+ridas e incontinências, membro do WCET – World Council of En-
+terostomal Therapists. Presidente da SOBEST (gestão 2009-12 e 2012 -14).
+
+Sônia Regina Pérez Evangelista Dantas
+Enfermeira Estomaterapeuta TiSOBEST, Doutora em Clinica Médica, Área de
+Ciências Básicas pela Faculdade de Ciências Médicas da Universidade Esta-
+dual de Campinas. Coordenadora do Curso de Especialização de Enferma-
+gem em Estomaterapia do Departamento de Enfermagem da FCM – Uni-
+camp. Membro titulado da SOBEST. Membro do Conselho Científico da
+SOBEST (gestão 2012 – 2014) e Membro do Comitê de Educação do WCET
+– World Council of Enterostomal Therapists.
+Coloplast A / S, março de 2013.
+Apesar dos avanços nos recursos e estratégias de prevenção e
+tratamento das úlceras por pressão nos últimos anos, essas lesões
+ainda representam um problema freqüente nos cuidados de saúde,
+especialmente para pessoas com mobilidade e sensibilidade
+reduzidas, destacando os acamados, cadeirantes e idosos
+debilitados.
+
+Com o objetivo de colaborar com os profissionais de saúde, clientes
+e cuidadores, a Coloplast elaborou esse GUIA RÁPIDO com
+informes educativos voltados para prevenção e tratamento das
+úlceras por pressão.
+
+O que é uma úlcera
+por pressão?
+Segundo o American National Pressure Ulcer Panel (NPUAP) e European
+Pressure Ulcer Advisory Panel (EPUAP), a úlcera por pressão é uma lesão
+localizada na pele ou tecidos subjacentes, normalmente sobre uma
+proeminência óssea, secundárias a um aumento de pressão externa, ou
+pressão em combinação com cisalhamento1, 2. (Figura 1)
+As úlceras por pressão são uma importante causa de morbidade e
+mortalidade, especialmente para pessoas com sensibilidade reduzida,
+imobilidade prolongada ou idade avançada3.
+Figura 1. Úlceras por pressão em região de calcâneo e sacral*.
+Foto: direitos autorais da NPUAP e usadas com permissão
+Como surgem as úlceras
+por pressão?
+A úlcera por pressão ocorre em virtude de mudanças degenerativas
+da pele e/ou tecido subcutâneo expostos às forças de pressão e
+cisalhamento. A pressão sobre a proeminência óssea prejudica a
+circulação sanguínea favorecendo a morte celular e o conseqüente
+aparecimento da úlcera (Figura 2).
+O cisalhamento é fenômeno de deformação da pele que ocorre
+quando as forças que agem sobre ela provocam um deslocamento
+em planos diferentes (Figura 2).
+Figura 2.  Efeito de forças de pressão e cisalhamento em vasos sanguíneos da pele.
+Vasos sanguíneos sem
+carga
+Forças de pressão
+Forças de cisalhamento
+Quais os riscos para
+adquirir úlceras por
+pressão?
+Pessoas com sensibilidade diminuída, imobilidade prolongada, ou acamadas
+com idade avançada são mais susceptíveis para aquisição de úlceras por
+pressão2.
+Os locais de maior risco das úlceras são as regiões mentoniana, occipital,
+escapular, cotovelo, sacral, ísqueo, trocanter, crista ilíaca, joelho, maléolo e
+calcâneo (Figura 3).
+Apesar dos avanços científicos e tecnológicos para prevenção e tratamento
+das úlceras por pressão, essa complicação ainda representa uma importante
+causa de morbidade em hospitais, instituições de longa permanência e na
+assistência domiciliar dos susceptíveis3.
+Figura 3. Principais locais de pressão e risco para úlceras.
+Adaptado do Clinical Practice Guidelines, Agency for Health Care Policy and
+Research, US Department of Health and Human Services.
+Prevalência das
+úlceras por pressão
+Estudos de prevalência foram realizados em vários países e evidenciam a
+magnitude do problema. Um estudo realizado com 5947 clientes em 25
+hospitais de cinco países europeus mostrou uma prevalência de úlceras
+por pressão de 18,1%, (estagios I a IV), com maior acometimento das
+regiões sacral e calcâneo. Nesse estudo, os autores relatam que 9,7% dos
+clientes com necessidade de prevenção receberam cuidados preventivos
+totalmente adequados5. Nesse mesmo estudo, a prevalência de úlceras
+por pressão em clientes hospitalizados em hospitais norte americanos
+variou de 10,1% a 17%5.
+Figura 4. Úlceras por pressão em diferentes localizações anatômicas.
+Região lombar
+Maléolo
+Ísquio
+Calcâneo
+Fatores de risco
+Os seguintes fatores aumentam o risco de desenvolver úlceras por pressão3, 5
+•	 Pessoas com perda da sensibilidade (lesado medular)
+•	 Idoso incapacitado
+•	 Pessoa incapaz ou com dificuldade de mobilidade do corpo
+•	 Doenças degenerativas
+•	 Tolerância tecidual reduzida (pele frágil)
+•	 Incontinência urinária ou intestinal
+•	 Desnutrição ou obesidade
+
+Em suas diretrizes internacionais de prevenção de úlcera por pressão, a
+NPUAP e EPUAP recomendam o uso de uma abordagem estruturada para
+avaliação e identificação de indivíduos em risco de desenvolver úlceras por
+pressão1. Uma das ferramentas de avaliação de risco mais utilizadas em
+todo o mundo é a Escala de Braden para Prever o Risco de Úlcera por Pres-
+são®, desenvolvida por Barbara Braden e Nancy Bergstrom em 19887. Essa
+escala será utilizada como um exemplo de ferramenta de avaliação de risco
+nos capítulos seguintes.
+A escala de Braden para
+prever o risco de úlcera
+por pressão
+A escala de Braden é uma ferramenta clinicamente validada, que permite
+aos enfermeiros registrarem o nível de risco de uma pessoa  desenvolver úl-
+ceras por pressão pela análise de seis critérios em níveis de estratificação
+que variam de 1 a 4 pontos:
+•	 Percepção Sensorial - capacidade de responder de forma significativa a
+um desconforto relacionado com pressão (1-4)
+•	 Umidade - grau em que a pele é exposta à umidade (1-4)
+•	 Atividade - grau de atividade física (1-4)
+•	 Mobilidade - capacidade de mudar e controlar a posição do corpo (1-4)
+•	 Nutrição - padrão habitual de consumo de alimentos (1-4)
+•	 Fricção e Cisalhamento - quantidade de assistência necessária para se
+mover, grau de deslizamento em camas ou cadeiras (1-3)
+A somatória da pontuação pode variar de 6 a 23. Quanto menor a pontua-
+ção, maior é o risco de desenvolver úlceras por pressão. Nessa escala os
+pacientes classificados da seguinte forma: risco muito alto (escores iguais ou
+menores a 9), risco alto (escores de 10 a 12 pontos), risco moderado (esco-
+res de 13 a 14 pontos), baixo risco (escores de 15 a 18 pontos) e sem risco
+(escores de 19 a 23 pontos).7, 9 A escala de Braden deve ser usada em con-
+junto com o julgamento de enfermagem. Cada item da subescala da pontua-
+ção serve como um marco para as avaliações que precisam ser mais explo-
+radas e um guia norteador das intervenções necessárias6.
+Uma cópia oficial da escala de Braden pode ser consultada através do link:
+Prevenção de úlceras por
+pressão
+Pessoas com fatores de risco para úlceras por pressão devem ser avaliadas
+sistematicamente quanto à integridade da pele e os cuidados devem
+estabelecidos através de um plano assistencial pautado nas necessidades
+individuais. Os seguintes itens devem ser sistematicamente observados:8
+•	 Avaliar diariamente o aparecimento de áreas avermelhadas sobre
+proeminências ósseas que, quando pressionadas, não se tornam
+esbranquiçadas
+•	 Observar o aparecimento de bolhas, depressões ou feridas na
+pele. Documentar todas as alterações observadas
+•	 Instituir terapêutica apropriada imediatamente ao sinal de
+qualquer lesão tecidual
+•	 Reposicionar o cliente acamado com mobilidade reduzida, no mínimo a cada
+2 horas para aliviar a pressão
+•	 Utilizar uma programação sistematizada de mudança de posicionamento
+•	 Orientar e garantir a mobilização do cadeirante em posição sentada a
+cada 1 hora
+•	 Utilizar itens que possam ajudar a reduzir a pressão, como travesseiros e
+colchões para redução de pressão, acolchoamento de espuma, e outros
+•	 Garantir um plano nutricional com a quantidade necessária de calorias,
+proteínas, vitaminas e minerais
+•	 Fornecer e incentivar a ingestão diária adequada de líquidos para hidratação.
+•	 Incentivar e auxiliar na estruturação de atividades físicas
+•	 Manter a pele limpa, seca e hidratada
+•	 Prevenir dermatites associadas à incontinência evitando o contato com urina
+e fezes, higienizando após eliminações e utilizando cremes de barreira,
+se necessário
+•	 NÃO massagear áreas com sinais de ulceração
+•	 Não utilizar almofadas em forma de anel, pois não garantem o princípio de
+distribuição da pressão
+Protocolos de prevenção
+por nível de risco
+A prevenção da úlcera por pressão consiste em identificar e minimizar os
+fatores de risco com o uso de uma ferramenta validada de avaliação de risco.
+A avaliação de risco pela escala de Braden permite o uso de um protocolo
+estruturado de reposicionamento com base no escore e classificação.
+A escala traduzida e adaptada deverá fazer parte do guia que pode ser
+consultado através do site:
+Escala de Braden simplificada, versão em língua portuguesa.
+
+Variáveis
+Escores
+Percepção
+sensorial
+Totalmente
+limitado
+Muito limitado
+Pouco limi-
+tado
+Nenhuma li-
+mitação
+Umidade
+Completa-
+mente mo-
+lhado
+Muito molhado
+Ocasional-
+mente mo-
+lhado
+Raramente
+molhado
+Atividade
+Acamado
+Confinado a
+cadeira
+Caminha
+ocasional-
+mente
+Caminha fre-
+quentemente
+Mobilidade
+Totalmente
+móvel
+Muito limitado
+Pouco limi-
+tado
+Sem limitação
+Nutrição
+Muito pobre
+Inadequado
+Adequado
+Excelente
+Fricçao e ci-
+salhamento
+Problema
+Problema po-
+tencial
+Sem proble-
+mas
+-
+Fonte: Paranhos & Santos, 1999.
+Sistema de classificação
+internacional da úlcera
+por pressão pela
+NPUAP-EPUAP
+A úlcera por pressão pode ser classificada em Categorias com base no
+grau de destruição tecidual com uma variação de I a IV, de acordo com a
+severidade9.
+Categoria / Estágio I:
+UP Estágio I região glútea
+Foto:direitos autorais da
+NPUAP e usadas com per-
+missão.
+Hiperemia não branqueável da pele intacta
+A pele intacta com hiperemia não branqueável
+de uma área localizada geralmente sobre uma
+saliência óssea. Descoloração da pele, calor,
+edema, endurecimento ou dor também podem
+estar presentes. Pele de pigmentação escura
+pode não ter branqueamento visível.
+Descrição mais detalhada: A área pode estar
+firme, dolorosa, amolecida, mais quente ou
+mais fria em comparação com o tecido adja-
+cente. Categoria / Estágio I podem ser difíceis
+de detectar em indivíduos com tons de pele es-
+cura. A presença de descoloração da pele
+pode indicar pessoas “em risco”.
+Categoria / Estágio II:
+UP Estágio II região glútea
+Foto: direitos autorais da NPU-
+AP e usadas com permissão.
+Perda parcial da espessura da pele ou bolha
+Perda parcial da espessura da derme apresentando
+uma úlcera superficial com leito da ferida vermelho-
+rosa, sem esfacelo. Também podem apresentar
+como uma bolha preenchida de soro ou
+serosanguinolenta intacta ou aberta / rompida.
+Descrição mais detalhada: Apresenta-se como
+uma úlcera superficial seca ou úmida, sem tecido
+desvitalizado ou hematomas. Esta categoria / estágio
+não deve ser usada para descrever lacerações na
+pele, lesões por adesivos, dermatite associada à
+incontinência, maceração ou escoriação.
+Categoria / Estágio III:
+UP em Ísquio, Estágio III
+Foto: direitos autorais da
+NPUAP e usadas com
+permissão
+Perda total da espessura da pele (gorduravisível)
+Perda total da espessura do tecido. Tecido adipo-
+so pode ser visível, mas não há exposição de
+osso, tendão ou músculo. Alguns esfacelos po-
+dem estar presentes. Pode incluir descolamento e
+túnel.
+Descrição mais detalhada: A profundidade de
+uma úlcera por pressão da Categoria / Estágio III
+varia de acordo com o local anatômico. O arco do
+nariz, orelhas, região occipital e maléolo não pos-
+suem tecido subcutâneo adiposo) e úlceras da Ca-
+tegoria / Estágio III podem ser superficiais. Em (con-
+traste, áreas de adiposidade significativa podem
+desenvolver úlceras por pressão extremamente pro-
+fundas na Categoria / Estágio III. O osso / tendão .
+Categoria / Estágio IV:
+UP em região sacral,
+Estágio IV
+Foto:direitos autorais da
+NPUAP e usadas com
+permissão
+Perda total de espessura de tecido (Músculo
+/ osso visível)
+A perda total de espessura de tecido com ten-
+dão, osso ou músculo exposto. Necrose ou es-
+facelo podem estar presentes. Muitas vezes in-
+cluem descolamento e túnel.
+Descrição mais detalhada: A profundidade
+de uma úlcera por pressão da Categoria / Está-
+gio IV varia de acordo com a localização anatô-
+mica. O arco do nariz, orelhas, região occipital
+e maléolo não possuem tecido subcutâneo
+(adiposo) e estas úlceras podem ser rasas. Úl-
+ceras da Categoria / Estágio IV podem se es-
+tender no músculo e / ou estruturas de apoio
+(por exemplo, fáscia, tendão ou cápsula articu-
+lar), tornando provável o surgimento de osteo-
+mielite ou osteíte. Osso / músculo expostos ou
+diretamente palpáveis.
+Tratamento das úlceras
+por pressão
+Para o tratamento ideal das úlceras por pressão existem quatro
+princípios fundamentais2:
+1. Patologia de base da úlcera por pressão deve ser tratada, se possível.
+2. A pressão deve ser aliviada ou removida por medidas adequadas para.
+evitar mais danos teciduais.
+3. A nutrição é importante para a cicatrização das úlceras por pressão:
+•	 Fornecer calorias suficientes
+•	 Fornecer quantidade adequada de proteínas para o equilíbrio positivo de
+nitrogênio
+•	 Fornecer e incentivar a ingestão diária adequada de líquidos para a hidra-
+tação
+•	 Fornecer vitaminas e minerais adequados
+4.  O cuidado da úlcera deve ser otimizado:
+•	 Se houver necrose ou esfacelos, considere o desbridamento para remover
+o tecido desvitalizado no leito da ferida*
+•	 Limpe a úlcera por pressão e pele ao redor e remova detritos em cada
+mudança de curativo para minimizar a contaminação
+•	 Use coberturas apropriadas para a manutenção da umidade
+* Selecione o método de desbridamento mais adequado para a condição do
+indivíduo. Métodos potenciais incluem o desbridamento instrumental, mecâ-
+nico, autolítico ou químico.
+Estas são apenas orientações gerais. Para obter uma descrição completa do tratamento ideal de úlceras por pres-
+são nas diferentes etapas, consulte suas diretrizes nacionais e o “Pressure ulcer treatment – Quick reference gui-
+de”, publicado pela NPUAP-EPUAP em 2009.
+Seleção das coberturas
+A terapia tópica é um componente essencial dos cuidados da úlcera por
+pressão. A seleção da cobertura deve basear-se no tecido sobre o leito da
+úlcera, no exsudato e na condição da pele adjacente.
+
+A cobertura de escolha deve manter o leito úmido através de propriedades
+de gerenciamento da exsudação.
+Coberturas para feridas de espessura total
+Preencher as feridas profundas com produtos de preenchimento, por exem-
+plo, do tipo alginato.  Documentar o número da cobertura que  foi utilizada
+para garantir que todas sejam removidas na próxima troca de curativo.
+Coberturas para feridas infectadas
+Avaliar as úlceras por pressão observando sinais de infecção e retardo no
+processo cicatricial.
+
+Coberturas antibacterianas impregnadas com prata (espuma ou alginato
+com prata) são terapias recomendadas para úlceras com infecção12.
+Coberturas para úlceras por pressão na região sacral
+As úlceras por pressão na região sacral têm um risco elevado de contamina-
+ção por urina ou fezes, principalmente em clientes incontinentes. Recomen-
+da-se manter a ferida e a pele adjacente limpa e utilizar uma cobertura semi-
+-oclusiva para proteger da contaminação.
+Avaliando o progresso para a cicatrização
+Um período de duas semanas é recomendado para avaliar o progresso para
+a cicatrização. No entanto, as avaliações semanais proporcionam uma opor-
+avaliar a necessidade de mudanças no plano de tratamento.
+As estratégias de tratamento devem ser continuamente reavaliadas e altera-
+das quando necessário, com base no estado atual da úlcera.
+Infecção da ferida
+Feridas abertas são colonizadas, ou seja, contêm bactérias. O aumento no
+número de bactérias na ferida é fator de risco para infecção.
+
+Os principais sinais de infecção locais da ferida são:
+•	 Odor
+•	 Aumento do exsudato ou exsudato purulento
+•	 Granulação ausente ou anormal do tecido
+•	 Aumento da dor
+Úlcera por pressão no tornozelo
+Foto: direitos autorais da NPUAP e usadas com permissão
+Dor, hiperemia e aparecimento de lesões satélites na pele adjacente à úlcera
+são sinais de disseminação da infecção aos tecidos subjacentes. Sinais sis-
+têmicos, como febre e bacteremia podem surgir como complicação grave e
+necessitam de terapêutica antimicrobiana sistêmica apropriada, de acordo
+com avaliação médica.
+Em feridas com colonização crítica ou infecção o uso de coberturas antimi-
+crobianas12, como espuma com prata ou alternativamente um curativo de al-
+ginato de prata, pode ser útil.
+Úlcera por pressão sacrococcígea com sinais de colonização crítica
+Foto: direitos autorais da NPUAP e usadas com permissão
+Soluções da Coloplast
+para tratamento das
+úlceras por pressão
+Úlceras por pressão não infectadas
+Coberturas adequadas para úlceras por pressão que não estejam infectadas
+são as coberturas para tratamento de feridas úmidas com propriedades de
+Absorção Superior e manejo de exsudato.
+Biatain
+- Absorção Superior para feridas exsudativas
+•	 Única espuma de poliuretano com estrutura 3D que  se
+adapta perfeitamente ao leito da ferida para obter uma
+Absorção Superior
+- Mesmo sob pressão do corpo mantém a absorção do
+exsudato.
+Úlcera por pressão com cavidade
+Feridas com cavidade podem ser preenchidas com coberturas para preen-
+chimento como o alginato SeaSorb® Soft e coberto por uma um cobertura
+adesiva.
+SeaSorb Soft
+- 	Absorção Superior para esfacelo e preenchimento da
+cavidade
+•	 Cobertura de alginato e carboximetilcelulose altamente
+absorvente para feridas de moderado a alto exsudato de
+da pela sua conformidade com qualquer forma de leito de
+ferida e por auxiliar no desbridamento de esfacelo
+
+Se a ferida estiver seca ou necrótica com necessidade para desbridamento
+enzimático, você pode usar um gel como o Purilon® Gel e cobrir com uma
+cobertura adesiva.
+Purilon Gel
+- Cicatrização mais rápida da ferida por desbridamento
+eficaz e suave
+•	 Desbridamento rápido e eficaz
+•	 Alta coesão - o gel permanece no local
+
+Úlceras por pressão infectadas e úlceras por pressão em risco de infecção
+Biatain® Ag Adesivo
+- 	Absorção Superior para feridas infectadas que
+necessitam de aderência extra
+•	 Espuma de poliuretano 3D que se adapta perfeitamen-
+te ao leito da ferida para obter uma Absorção Superior
+- Mesmo sob pressão do corpo mantém a absorção
+do exsudato.
+•	 Amplo efeito antimicrobiano contínuo durante todo o
+tempo de uso
+•	 Redução do odor da ferida
+•	 Disponível no formato sacral e calcâneo para garantir
+um encaixe perfeito ao corpo e pele para a prevenção
+de contaminação e vazamento
+Biatain®
+Absorção Superior
+para uma cicatrização
+mais rápida
+Absorção Superior
+para feridas não
+infectadas*
+Absorção Superior
+para feridas infectadas
+Absorção Superior
+para feridas
+dolorosas
+Outros produtos da
+Coloplast para úlceras
+por pressão
+Biatain Não Adesivo
+(cm)
+10x10
+33410
+10x20
+33412
+15x15
+33413
+5x8
+Cavidade
+33451
+Biatain Ag Não Adesivo
+(cm)
+10x10
+39622
+15x15
+39625
+5x8
+Cavidade
+39628
+Biatain Ag Adesivo
+(cm)
+12.5x12.5
+39632
+18x18
+39635
+Calcâneo
+19x20
+39643
+Sacral
+23x23
+39641
+SeaSorb ® Soft
+(cm)
+10x10
+3710
+15x15
+3715
+Fita 3x44
+3740
+Comfeel Plus Curativo
+Hidrocolóide
+(cm)
+4x6
+3146
+10x10
+3110
+15x15
+3115
+20x20
+3120
+Comfeel Plus Curativo
+Hidrocolóide Transparente
+(cm)
+5x7
+3530
+10x10
+3533
+9x14
+3536
+15x20
+3542
+5x25
+3548
+Purilon ® Gel
+(cm)
+8gr.
+3906
+15gr.
+3900
+25gr.
+3903
+Biatain Ibu Não Adesivo
+(cm)
+10x10
+34110
+10x20
+34112
+15x15
+34115
+Referências
+1.	 Rogenski NMB, Santos VLCG. Estudo sobre a incidência de úlcera por
+pressão em um hospital universitário. Revista Latino - Am de
+Enfermagem 2005 julho-agosto; 13(4) 474-80. [Acesso em 15 de jul de
+2012]. Disponível em: http://
+2.	 National Pressure Ulcer Advisory Panel (NPUAP). NPUAP Announces the
+Release of the NPUAP-EPUAP Guidelines for Pressure Ulcer Prevention
+and Treatment.  Guidelines%20Flyer.pdf. Available
+on April 19th 2010
+3.	 Costa IG. Incidência de úlcera de pressão e fatores de risco relacionados
+em pacientes de um centro de terapia intensiva [Dissertação]. Ribeirão
+Preto: Escola de Enfermagem de Ribeirão Preto/USP; 2003.
+4.	 Diccini S, Cadamuro C, ISI Luciana. Incidência de úlcera por pressão em
+pacientes neurocirúrgicos, Acta Paul Enfermagem 2009; 22(2): 205-9.
+5.	 European Pressure Ulcer Advisory Panel and National Pressure Ulcer
+Advisory Panel. Prevention and treatment of pressure ulcers: quick
+reference guide. Washington DC: National Pressure Ulcer Advisory Panel;
+2009. [Acesso em 20 de ago de 2012]. Disponível em: http//: www.
+npuap.org; http//:
+6.	 Salcido R, Popescu A. Pressure ulcers and wound care. Medscape
+Reference; 2012. [Acesso em 5 de ago de 2012]. Disponível em: http://
+emedicine.medscape.com/article/319284-overview
+7.	 Braden Scale [homepage da internet]. Prevention Plus [Acesso em 5 de
+ago de 2012]. Disponível em: http//:
+8.	 Paranhos WY, Santos VLCG. Avaliação de risco para úlceras de pressão
+por meio da Escala de Braden, na língua portuguesa. Rev Esc
+Enfermagem USP,1999;33 (n. esp):191-206
+9.	 Pressure Ulcer Advisory Panel and National Pressure Ulcer Advisory
+Panel. Prevention and treatment of pressure ulcers: quick reference
+guide. Washington DC: National Pressure Ulcer Advisory Panel; 2009.
+Disponível em: http//:
+10.	Santos VLCG, Caliri MH. Conceito e classificação de úlcera por pressão:
+atualização do NPUAP: tradução. Rev Estima 2007; 5(3): 43-4.
+11.	Braden Scale [ Prevention Plus [Acesso em 5 de
+ago de 2012]. Disponível em [
+12.	Buchholtz C. An in-vitro comparison of antimicrobial activity and silver
+release from foam dressings. Wounds UK 2009
+Anotações
+Anotações
+Ligue para:
+Central de Atendimento
+0800 285 8687
+A Coloplast desenvolve produtos e
+serviços que tornam a vida mais fácil
+para pessoas com condições médicas
+muito pessoais e particulares. Atuando
+próximo de pessoas que utilizam
+nossos produtos, criamos soluções
+sensíveis às suas necessidades
+especiais. É o que chamamos de
+intimate healthcare.
+Nosso negócio envolve cuidados com
+estomias, urologia e continência, e
+feridas e pele. Estamos presentes em
+todo o mundo e empregamos mais de
+8.000 pessoas.
+Coloplast A/S, Holtedam 1, 3050 Humlebæk, Denmark
+A logo da Coloplast é uma marca registrada da Coloplast A/S. © 2013-03. Todos os direitos reservados Coloplast A/S
+
+======================================================================
+DOCUMENTO: E-book Semiologia Dermatológica
+ORIGEM: E-book Semiologia Dermatológica.pdf
+======================================================================
+
+Semiologia
+Dermatológica &
+Lesões Elementares
+Centro Universitário São Camilo
+© Copyright 2024. Centro Universitário São Camilo.
+TODOS OS DIREITOS RESERVADOS.
+
+Centro Universitário São Camilo
+
+REITOR
+João Batista Gomes de Lima
+VICE-REITOR e PRÓ-REITOR ADMINISTRATIVO
+Anísio Baldessin
+PRÓ-REITOR ACADÊMICO
+Carlos Ferrara Junior
+
+Produção editorial
+Coordenadora Editorial
+Bruna San Gregório
+Analista Editorial
+Cintia Machado dos Santos
+Assistente Editorial
+Bruna Diseró
+
+Autores
+Amanda Bertazzoli Diogo
+Lucas França Rocha
+Amanda Sabio Rodrigues
+Paula Rissa Sato
+É PROIBIDA A REPRODUÇÃO TOTAL OU PARCIAL DE TEXTOS, SEM PRÉVIA AUTORIZAÇÃO.
+Ficha Catalográfica elaborada pela Bibliotecária Ana Lucia Pitta
+CRB 8/9316
+S474
+Diogo (Org.). - São Paulo: Setor de Publicações - Centro Universitário
+São Camilo, 2024
+54 p.
+
+Vários autores
+
+ISBN 978-65-86702-80-4
+
+1. Dermatologia  2. Semiologia  3. Lesões  4. Guia Prático
+I. Diogo, Amanda Bertazzoli  II. Título
+CDD: 616.5
+SUMÁRIO
+Semiologia dermatológica - Introdução
+Lesões elementares
+Lesões elementares primárias
+Conteúdo líquido
+Lesões planas
+Lesões sólidas
+Lesões elementares secundárias
+Alteração de espessura/consistência
+Perda de substância
+Considerações Finais
+Atividade para prática e fixação de conteúdo
+Referências
+Semiologia dermatológica
+Introdução
+A semiologia dermatológica, ao contrário do usual em diferentes especialidades,
+inicia-se com o exame físico. Isto é, a avaliação do acometimento dermatológico é
+o princípio da consulta. Posteriormente, é feita a anamnese como a conhecemos.
+A inspeção e o reconhecimento das alterações que ocorrem na pele, mucosas,
+couro cabeludo e unhas, tal como o tipo de lesão/alteração, norteiam o raciocínio
+clínico em consulta.
+Além da inspeção, compõem o exame físico dermatológico: palpação, compressão
+e digitopressão. São avaliadas, no exame físico dermatológico, algumas caracte-
+rísticas, como a consistência da alteração – se amolecida, endurecida ou pétrea,  a
+temperatura, a mobilidade, a extensão e profundidade e a presença ou não de dor.
+Sequência semiológica correta:
+1º Identificação:
+Nome, idade, sexo, etnia, profissão, naturalidade, procedência etc.
+2º Queixa principal e duração das lesões (QD):
+Feridas em mão esquerda há 1 ano; mancha no rosto há 3 meses; queda de cabelo
+há 5 meses, entre outros.
+3º Exame físico dermatológico:
+A – Exame objetivo (inspeção, palpação, digitopressão/vitropressão, compressão).
+B – Exame subjetivo (sintomas associados: prurido? Dor? Ardor? Anestesia/hipoes-
+tesia/parestesia?).
+4º Anamnese completa:
+HPMA, medicações em uso*, ISDA, antecedentes pessoais e familiares, hábitos de
+vida etc.
+5º Exame físico geral:
+ectoscopia, estado geral, pele e anexos, ACV, AP, abdome.
+Exame crânio-caudal Próximo-distal
+complementa o exame der matológico.
+6º Exames Complementares:
+exames trazidos por paciente pertinentes a consulta dermatológica.
+7º Hipótese Diagnóstica:
+descrição da suspeita de determinada enfermidade que está acometendo o pa-
+ciente.
+8º Diagnóstico Diferencial:
+possíveis outras doenças, porém menos prováveis que a hipótese diagnóstica
+principal.
+9º Plano de Tratamento:
+conduta a ser tomada, em cocncordancia com o paciente, seja a solicitação de
+mais exames necessários, prescrição de medicamentos, orientações e retorno.
+3º - Exame físico
+dermatológico
+Figura 1. Componentes do exame
+dermatológico
+Fonte: JUNIOR, W. B.; Chiacchio N. D.; CRIADO, P. R. Tratado de
+Dermtologia: Volume 1. 3. ed. São Paulo: Editora Atheneu, 2018.
+A – Exame objetivo
+I) Inspeção:
+Ambiente iluminado; solicitar ao paciente que retire toda a roupa. Avaliar pele,
+unha, cabelo e mucosas.
+Avaliação das lesões a olho nu ou com dermatoscópio.
+- A distância (1-2 metros). Observar:
+•	 Topografia/área de acometimento: tronco, membros, superfícies extensoras/flexoras, face.
+•	 Distribuição: lesões localizadas ou generalizadas, simétricas ou assimétricas, agrupadas ou não.
+•	 Número de lesões.
+- Próximo às lesões (distância de 20-30 cm). Observar:
+•	 Morfologia das lesões: característica principal, tamanho, cor, bordas.
+II)
+Palpação (pinçamento digital):
+- Identifica:
+
+A) Lesões sólidas (alteração no relevo cutâneo). Exemplos: placas, pápulas, nódulos etc.
+B) Textura (pele xerótica, descamação).
+C) Consistência (amolecida ou endurecida).
+D) Espessura.
+E) Volume.
+F) Dor.
+G) Temperatura.
+H) Lesões móveis ou fixas.
+Figura 2. Ilustração do pinçamento digital no exame físico
+dermatológico. Fonte: © Copyright, 2022. Hesperian Health Guides.
+Figura 3. A: Pinçamento cutâneo.
+B: Perda do turgor cutâneo devido
+à desidratação.
+Fonte: ptmedical.pt
+III) Digitopressão/vitropressão:
+- Interrupção do fluxo sanguíneo dos vasos na área pressionada.
+- Diferencia eritema de púrpura.
+Figura 4. Digitopressão ao exame físico dermatológico
+Fonte: Ministério da Educação, EBSERH (2021).
+Figura 5. Eritema não branqueá-
+vel à vitropressão
+Fonte:
+examegeral-pele-faneros- linfonodos/ - acesso
+em 15/05/2023.
+Figura 6. Palpação de edema em membros inferiores
+Fonte: Brasil (2005) apud Brasil (2012, p. 103).
+Eritema: esmaece à digitopressão
+Púrpura: não esmaece à digitopressão
+X
+Figura 7. Criança com eritema infeccioso
+Fonte: Mundo Nipo. Acesso em: 15 de maio de 2023.
+Figura 8. Eritema branqueável à vitropressão
+Fonte: Copyright National Pressure Ulcer Avisory Panel -
+NPUAP®, (CUDDIGAN 2016).
+Figura 9. Púrpura
+Fonte:  hemorragia/.
+Acesso em: 15 de maio de 2023.
+Figura 10. Eritema não branqueável à
+vitropressão
+Fonte:
+faneros-linfonodos/. Acesso em: 15 de maio de 2023.
+IV) Compressão:
+- Útil para avaliação de edema e dermografismo.
+EDEMA
+Figura 11. Edema em membro inferior após
+digitopressão (sinal de Godet ou cacifo)
+Fonte:
+Figura 12. Ilustração da digitopressão com presença de dema
+Fonte:
+Figura 13. Dermatografismo ao arranhar delicadamente a
+pele (surgem linhas vermelhas elevadas)
+Fonte: MSD Manual da Saúde (© Springer Science+Business Media).
+DERMOGRAFISMO FISIOLÓGICO:
+resposta cutânea vascular (vasodilatação), devido a atrito local.
+Figura 14. Dermografismo fisiológico após atrito da pele
+Fonte:
+DERMOGRAFISMO
+NÃO FISIOLÓGICO
+(branco)
+Figura 15. Dermografismo branco após atrito da pele
+Fonte: Antunes, A. A., Solé, D., Carvalho, V. O., Bau, A. E. K., Kuschnir, F. C.,
+Mallozi, M. C., & Silva, L. R. (2017). Guia prático de atualização em dermatite
+atópica, Parte I: etiopatogenia, clínica e diagnóstico. Posicionamento conjun-
+to da Associação Brasileira de Alergia e Imunologia e da Sociedade Brasileira
+de Pediatria. Arquivos de Asma, Alergia e Imunologia, 1 (2), p. 131-156.
+Figura 16. Coloração violácea-
+-eritematosa e dermografismo
+branco no tronco do paciente
+com Covid-19. A marca da bor-
+da do estetoscópio é observada
+Fonte: semergen. 2021; 47: e55-e56.
+Lesões
+Elementares
+Conceito:
+manifestações cutâneas observadas durante o exame físico der-
+matologico.  Podem ser classificadas da seguinte maneira:
+Lesões elementares primárias:
+A) Conteúdo líquido;
+B) Lesões planas (alteração da cor);
+C)Lesões sólidas (alteração de relevo).
+Lesões elementares secundárias:
+2) Alteração de espessura/consistência;
+3) Perda de substância.
+1) Lesões elementares primárias:
+A) Conteúdo líquido
+B)	 Lesões planas
+C)	 Lesões sólidas
+Qual é a lesão
+elementar?
+Figura 17. Herpes simples 1 e 2
+Fonte:  Acesso em: 15 de maio de 2023.
+I) Vesícula
+Elevação circunscrita menor que 1
+cm de diâmetro. Localização sub-
+córnea, intraepitelial ou subepidér-
+mica. Conteúdo inicial seroso.
+Evolução: conteúdo turvo (puru-
+lento) ou rubro (hemorrágico).
+Exemplo: herpes
+Figura 18. Herpes simples 1 e 2
+Fonte:  Acesso em: 15 de maio de 2023.
+Figura 19. Herpes zóster
+Fonte: https: //alessandrabarros.com.br/herpes-zoster/. Acesso em: 15 de maio de 2023.
+Figura 20. Herpes zóster Fonte:
+WikiMediaCommons/GNU
+Qual é a lesão
+elementar?
+Figura 22. Bolhas tensas, erosões e crostas no
+braço de um paciente com penfigoide bolhoso
+Fonte: MSD - Manual da Saúde (© Springer Science+Business Media).
+II) Bolha
+Elevação circunscrita maior ou igual a 1 cm de diâme-
+tro. Localização na epiderme ou no espaço entre epi-
+derme e derme. Conteúdo inicial seroso/claro.
+Evolução: conteúdo purulento ou hemorrágico. Fláci-
+das ou tensas.
+Flictena: bolha provocada por queimaduras.
+TENSAS
+FLÁCIDA
+Figura 21. Bolha flácida
+Fonte:  Acesso em: 15 de maio de 2023.
+
+Qual é a lesão
+elementar?
+Figura 23.
+Fonte:
+Acesso em: 15 de maio de 2023.
+Figura 24.
+Fonte:
+ac p-medicine/6864/abordagem_diagnostica_as_do
+III)
+Pústula
+Elevação circunscrita menor que 1 cm de diâmetro.
+Localização na epiderme.
+Conteúdo purulento (o que difere da vesícula).
+Conteúdo purulento séptico (por exemplo, acne) ou asséptico (psoríase pustulosa).
+Figura 25. Acne com múltiplas pústulas. Pápulas e
+crostas também são visíveis
+Fonte: MSD - Manual da Saúde.
+Figura 26. Psoríase pustulosa: Quadro gene-
+ralizado acometendo os membros inferiores
+Fonte: An Bras Dermatol
+Qual é a lesão
+elementar?
+IV) Abscesso
+Coleção purulenta profunda.
+Acompanhado, geralmente, de sinais flogísticos (dor, calor, rubor,
+edema). Localização na derme ou no tecido celular subcutâneo.
+Apresentação: nódulo eritematoso, ou drenagem de secreção pu-
+rulenta para o meio externo.
+Exemplos: carbúnculo ou hordéolo.
+Figura 27.
+Fonte: i.pinimg.com.
+Figura 28.
+Fonte: Copyright©, 2000. Disciplina de Patologia Geral do De-
+partamento de Estomatologia da Faculdade de Odontologia da
+Universidade de São Paulo.
+Figura 29. Abcesso mamário
+Fonte:  s-ele-
+mentares?next_slideshow=true. Acesso em: 15 de maio de 2023.
+Figura 30. Abcesso
+Fonte:  tratar-um-cis-
+to-de-cabelo-encravado/. Acesso em: 15 de maio de
+V) Hematoma
+Coleção de sangue restrita ao local do trauma. Localiza-
+ção: derme ou tecido subcutâneo. Inicialmente vermelha.
+Evolução: arroxeada e verde-amarelada.
+2 dias
+7 dias
+Figura 34. Espectro de Legrand Du
+Saulle
+Fonte:
+tag/manchas-subpleurais-de-paltauf/?print=print-
+-search. Acesso em: 15 de maio de 2023.
+Figura 31. Hematoma em
+membro inferior esquerdo
+Fonte:
+noticias-tv-1/hematoma-que-surge-es-
+pontaneamente-pode-ser-sinal- de-do-
+encas. Acesso em: 15 de maio de 2023.
+Figura 32. Hematoma em
+cotovelo direito
+Fonte:
+com.br/contusao- entorse-luxacao-
+-e-fratura-qual-a-diferenca/. Acesso
+em: 15 de maio de 2023.
+Figura 33. Hematoma em
+cotovelo direito
+Fonte:
+br/contusao- entorse-luxacao-e-fratu-
+ra-qual-a-diferenca/. Acesso em: 15 de
+maio de 2023.
+VI) Cisto
+Cavidade revestida por epitélio glandular ou queratinizado.
+Conteúdo varia de líquido a pastoso.
+Derivados dos anexos cutâneos.
+Nódulos de superfície lisa e consistência não endurecida. Móvel
+em relação à pele.
+Figura 35. Representação de cisto na anato-
+mia da pele
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P. Derma-
+tologia de Fitzpatrick: Atlas e Texto. 8. ed. Rio de Janeiro: Artes
+Médicas, 2019.
+Figura 36. Imagem de cisto epidérmico
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P. Dermatologia de
+Fitzpatrick: Atlas e Texto. 8. ed. Rio de Janeiro: Artes
+Resumindo...
+1) Lesões elementares primárias:
+A)Conteúdo líquido (vesícula, bolha,
+pústula, abscesso, hematoma, cisto).
+B)Lesões planas
+C)Lesões sólidas
+1) Lesões elementares primárias:
+A) Conteúdo líquido
+B) Lesões planas
+C)	 Lesões sólidas
+B) Lesões planas (máculas ou manchas)
+Conceito: lesões com alteração da cor e
+sem alteração de relevo (não são palpá-
+veis).
+Podem ser de dois tipos, de acordo com
+sua origem:
+•	 Pigmentar.
+•	 Vásculo-sanguínea.
+Figura 37. Representação de máculas na anatomia da pele
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P. Dermatologia de Fitzpatrick: Atlas e
+Texto. 8. ed. Rio de Janeiro: Artes Médicas, 2019.
+Figura 38. Imagem de mácula
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVE-
+DRA, A. P. Dermatologia de Fitzpatrick: Atlas
+e Texto. 8. ed. Rio de Janeiro: Artes Médicas,
+2019;
+Pigmentar:
+I)Hipercromia
+Depósito de pigmento (como a melanina) na epider-
+me. Exemplos: melasma e acantose nigricans.
+II) Leucodermia
+Mancha esbranquiçada por diminuição (hipocromia)
+ou ausência (acromia) de melanina.
+Exemplos: vitiligo e pitiríase alba.
+Figura 39. Melasma
+Fonte: MSD Manual da Saúde - DR P.
+MARAZZI/SCIENCE PHOTO LIBRARY
+Figura 40. Acantose
+nigricans
+Fonte: MSD - Manual da Saúde.
+Figura 41. Vitiligo segmentar em face
+Fonte: MSD - Manual da Saúde (© Springer Science+
+Business Media).
+Figura 42. Pitiríase alba em
+face de criança
+Fonte: MACHADO, M. C. M. R. Derma-
+tologia Pediátrica. 3ª de. São Paulo:
+Editora Manole, 2022.
+Vásculo-sanguíneas (ocorre pela congestão ou constrição
+vasculares, ou pelo extravasamento de hemácias na der-
+me).
+III) Eritema
+Mancha vásculo-sanguínea, avermelhada e causada por
+vasodilatação, que desaparece com digito/vitropressão.
+Tipos:
+•	 Cianótico;
+•	 Rubro;
+•	 Enantema (em mucosas);
+•	 Eritema agudo generalizado;
+•	 Exantema morbiliforme: eritema permeado
+por áreas de pele sã;
+•	 Exantema escarlatiniforme: eritema sem áre-
+as de pele sã de permeio.
+Figura 43. Ilustração esquemática de eritema
+Fonte: Azulay, L., Bonalumi, A., Aulay, D. R., & Leal, F. (2022). Atlas de Dermatologia: da semiologia ao
+diagnóstico. Editora Elsevier, 2007.
+Eritema cianótico
+Eritema rubro
+Figura 44. Aspecto cianótico das falanges distais dos quiro-
+dáctilos
+Fonte: Bernardes Filho, Fred, et al. Cianose e púrpura nos quirodáctilos: fundamentos
+do diagnóstico diferencial, a propósito de um caso. Journal of the Portuguese Society of
+Dermatology and Venereology 72.4, 2014, p. 569-572.
+Figura 45. Síndrome de Raynaud
+com cianose
+Fonte: MSD - Manual da Saúde (© Springer
+Science+Business Media).
+Figura 46. lesões maculopapulares eritematosas e arroxeadas com
+formação de vesículas nos dedos
+Fonte: GORDON, Rebecca; ARIKIAN, Anne M.; PAKULA, Anita S. Chilblains in Southern California:
+two case reports and a review of the literature. Journal of Medical Case Reports, v. 8, p. 1-6, 2014.
+Enantema
+Exantema morbiliforme
+Exantema escarlatiniforme
+Figura 47. Enantema em mucosa oral em
+paciente com sarampo
+Fonte: Center for Disease Control and Prevention (CDC).
+Figura 48. Esofagite por CMV
+Fonte:
+PMC4027832/.
+Figura 49. Exantema morbiliforme no sarampo
+Fonte:
+Figura 50. Sarampo
+Fonte:
+Figura 51. Exantema em paciente com
+escarlatina
+Fonte: Science Photo Library.
+Figura 52. Erupção exantemática por medica-
+mentos
+Fonte:
+matica-por-medicamentos/.
+IV) Púrpura
+Mancha vásculo-sanguínea, vermelho-violá-
+cea que não desaparece com a digitopressão
+ou vitropressão; formada por sangue extra-
+vascular. Podem ser de 2 tipos:
+Figura 53. Equimose periorbital
+Fonte: Manual MSD.
+Equimose: > 1 cm.
+Petéquia: < 1cm.
+Figura 54. Púrpura trombocitopênica idiopática
+Fonte: Medical Actu.
+V) Telangiectasia
+Dilatação vascular capilar de artérias ou
+veias com luz menor que 2 mm (derme
+superficial).
+Figura 55. Telangiectasia em nariz
+Fonte: Medical News Today.
+Figura 56. Telangiectasia
+nas pernas
+Fonte: MedlinePlus.
+VI) Mancha anêmica
+Mancha branca, bem delimitada (ausência de
+vaso sanguíneo no local ou hiperreatividade às
+aminas constritoras). É permanente e causada
+por agenesia vascular.
+Figura 57. Pitiríase versicolor
+Fonte: BVS - Como manejar casos de pitiríase ver-
+sicolor com má resposta ao tratamento clínico?
+Figura 58. Pitiríase versicolor
+Fonte: Atlas Dermatológico.
+VII) Mancha angiomatosa
+Neoformação vascular na derme; regride à digi-
+to/vitropressão. Exemplo: hemangioma plano.
+Figura 59. Síndrome de
+Sturge-Weber
+Fonte: Manual MSD.
+Figura 60. Mancha vinho do porto
+Fonte: Scielo - Malformações vasculares.
+Resumindo...
+1) Lesões elementares primárias:
+A) Conteúdo líquido (vesícula, bolha, pústula,
+abscesso, hematoma, cisto)
+B) Lesões planas (máculas ou man-
+chas): alteração da cor, sem al-
+teração de relevo. Exemplos: hi-
+percromia, leucodermia, eritema,
+púrpura, telangiectasia, mancha
+anêmica e mancha angiomatosa.
+C)Lesões sólidas
+1) Lesões elementares primárias:
+A) Conteúdo líquido
+B) Lesões planas
+C) Lesões sólidas
+Qual é a lesão
+elementar?
+Figura 61. Dermatose papulosa nigra
+Fonte: Skinsight.
+I) Pápula
+Lesão circunscrita, elevada, palpável, fazendo relevo
+em relação aos planos circunjacentes.
+Superfície plana ou curva. Tamanho: < 1 cm.
+Pode ser epidérmica, dérmica ou mista. Exemplos:
+acne secundária e sífilis.
+Figura 62. Hanseníase virchowiana
+Fonte: ABD. Hanseníase histoide: rara apresentação
+clínica de hanseníase virchowiana.
+Figura 63. Xantoma eruptivo
+Fonte: BVS. Xantoma eruptivo: relato de caso com
+exuberantes manifestações clínicas e laboratoriais.
+Qual é a lesão
+elementar?
+Figura 64. Eczema
+Fonte: Alamy.
+II) Placa
+Lesão elevada e plana.
+Ocupa uma área de superfície relativamente grande em
+comparação com sua altura.
+Origem: confluência de várias pápulas ou máculas. Ta-
+manho: > 1 cm.
+Pode cursar com queratinização, maceração, descama-
+ção ou crosta.
+Qual é a lesão
+elementar?
+Figura 65. Dermatite atópica
+Fonte: Renovação
+Figura 66. Psoríase
+Fonte: Dermatologia de Fitzpatrick.
+Figura 67. Nódulo
+Fonte: Dermatologia de Fitzpatrick.
+III) Nódulo
+Lesão sólida, circunscrita, dérmica (quando se
+apresenta elevada) ou hipodérmica (mais pal-
+pável do que visível).
+Tamanho: 1 a 3 cm.
+Exemplo: câncer de pele (carcinoma basocelu-
+lar).
+Observação: lesões maiores que 3 cm são co-
+nhecidas como nodosidade ou tumoração.
+Figura 68. Ceratoacantoma
+Fonte: RBCP. Ceratoacantoma: aspectos morfológicos, clínicos e hospitalares.
+Figura 69. Lesões cutâneas primárias
+Fonte: Lecturio.
+PÁPULA
+PLACA
+NÓDULO
+Qual é a lesão
+elementar?
+Figura 71. Sífilis terciária - Goma sifilítica
+Fonte: Sanar.
+Figura 70. Goma
+Fonte: MedPrime.
+IV) Goma
+Nódulo que se liquefaz no centro. Evolução em
+quatro etapas:
+•	 Endurecimento;
+•	 Amolecimento (necrose);
+•	 Esvaziamento (drenagem no material
+necrótico para o exterior);
+•	 Reparação (cicatriz).
+Exemplo: sífilis terciária.
+Qual é a lesão
+elementar?
+V) Urtica
+Lesão em relevo, edematosa, circunscrita, efêmera,
+cor vermelho-róseo ou branco-porcelana.
+Halo: eritematoso ou edematoso. Origem: edema
+dérmico.
+Exemplo: urticária.
+Figura 73. Erupção alérgica
+Fonte: Dermatologcentr.
+Figura 72. Urticária
+Fonte: Tudo sobre alergia.
+Qual é a lesão
+elementar?
+Figura 76. Vegetações
+Fonte: Getty Images.
+VI) Vegetação
+Lesão elevada de superfície irregular.
+Eflorescência que cresce para o exterior.
+Se possui superfície amarelada/dura/queratótica, há
+verrucosidade ou lesão verrucosa.
+Exemplo: verruga vulgar.
+Figura 74. Verruga vulgar
+Fonte: MedPrime.
+Figura 75. Vegetação
+Fonte: MedPrime.
+Resumindo...
+1) Lesões elementares primárias:
+A) Conteúdo líquido (vesícula, bolha, pústula,
+abscesso, hematoma, cisto).
+B) Lesões planas (máculas ou manchas): altera-
+ção da cor, sem alteração de relevo. Exemplos:
+hipercromia, leucodermia, eritema, púrpura,
+telangiectasia, mancha anêmica e mancha angio-
+matosa.
+C)Lesões sólidas (pápula, placa, nó-
+dulo, goma, urtica, vegetação/verru-
+cosidade).
+2) Lesões elementares
+secundárias:
+A) Alteração de espessura/consistência
+B) Perda de substância
+I) Atrofia
+Depressão da superfície cutânea.
+Perda de substância dérmica ou epidérmica.
+Figura 77. Representação da
+atrofia na anatomia da pele
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVE-
+DRA, A. P. Dermatologia de Fitzpatrick: Atlas
+e Texto. 8. ed. Rio de Janeiro: Artes Médicas,
+2019.
+Figura 78. Atrofia
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A.
+P. Dermatologia de Fitzpatrick: Atlas e Texto. 8. ed.
+Rio de Janeiro: Artes Médicas, 2019.
+II) Cicatriz
+Tecido subcutâneo ou dérmico que é substituído por
+tecido fibroso após injúria local. Lesão destituída de
+anexos cutâneos.
+Pode ser:
+Elevada (hipertrófica);
+Plana;
+Deprimida (atrófica).
+Figura 80. Cicatriz hipertrófica pós cirurgia
+Fonte: Azulay.
+Figura 79. cicatriz atrófica pós-acne
+Fonte: Azulay.
+IV) Esclerose
+Alteração na consistência da pele (endurecimento),
+com rigidez e perda do pregueamento natural.
+Espeçamento cutâneo.
+A superfície da lesão torna-se lisa e brilhante.
+Exemplo: esclerodermia.
+Figura 82. Esclerodermia
+Fonte: SBD.
+III) Edema
+Líquido extravasado dos vasos
+para a derme ou hipoderme.
+Exemplos: urticária e angiodema.
+Figura 81. Edema labial em paciente com angioedema hereditário
+Fonte: MSD - Manual da Saúde (Freedberg, IM Freedberg, e MR Sanchez. Philadelphia, Current Medicine, 2001).
+V) Liquenificação
+Espessamento da pele com acentuação dos sulcos cutrâneos. Origem: coçadura frequente.
+Exemplo: dermatite atópica.
+Figura 83. Dermatite atópica infantil
+Fonte: Atlas de Dermatologia.
+Figura 84. Dermatite ató-
+pica infantil
+Fonte: Atlas de Dermatologia.
+Figura 85. Eczema de contato crônico
+Fonte: Azulay.
+Figura 86. Liquenificação de grande placa
+de psoríase devido prurido intenso
+Fonte: Azulay, L., Bonalumi, A., Aulay, D. R., & Leal, F. (2022).
+Atlas de Dermatologia: da semiologia ao diagnóstico. Edito-
+ra Elsevier, 2007.
+VI) Queratose
+Espessamento da camada córnea da pele, com consistência endurecida. Colorações: parda, amarela, branca.
+Exemplo: queratose plantar
+Figura 87. Tinea mannum
+Fonte: Azulay.
+Figura 88. Tinea pedis
+Fonte: Sience Photo Library.
+Figura 89. Hiperqueratose plantar
+Fonte: Sience Photo Library.
+Resumindo...
+2)Lesões elementares secundárias:
+A) Alteração de espessura/consis-
+tência (atrofia, cicatriz, edema, es-
+clerose, liquenificação, queratose).
+B) Perda de substância (crosta, erosão/exulce-
+ração, ulceração/úlcera, escama, escara, fissura,
+fístula).
+2)	 Lesões
+elementares
+secundárias:
+A) Alteração de espessura/consistência
+B) Perda de substância
+I) Crosta
+Na área da perda tecidual, após o dessecamento de pus, sangue ou serosidade, junto com os restos epiteliais,
+forma-se uma massa de exsudatos e secreções de cores variáveis, conforme o tipo de secreção.
+•	 Crosta hemática: cor vermelho-escuro.
+•	 Crosta sero-hemática: cor vermelho-clara.
+•	 Crosta purulenta: cor amarelo-esverdeada.
+Exemplo: impetigo.
+Figura 90. Impetigo crostoso
+Fonte: childhealth.com.au.
+Figura 91. Representação de crostas na anatomia da pele
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P. Dermatologia de Fitzpatrick:
+Atlas e Texto. 8. ed. Rio de Janeiro: Artes Médicas, 2019.
+Figura 92. Impetigo
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P. Dermatologia
+de Fitzpatrick: Atlas e Texto. 8. ed. Rio de Janeiro: Artes Médicas,
+2019.
+II)
+Erosão ou exulceração
+Perda parcial da epiderme, não deixando
+cicatriz. Em geral, apresenta exsudato na
+superfície.
+Exemplo: ruptura de bolha intraepidérmica
+(pênfigo foliáceo).
+III) Ulceração ou úlcera
+Perda circunscrita da epiderme e da derme,
+podendo deixar cicatriz. Pode atingir hipoder-
+me e tecidos profundos.
+Exemplo: úlcera de estase.
+Figura 93. Representação de
+erosão na anatomia da pele
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVE-
+DRA, A. P. Dermatologia de Fitzpatrick: Atlas
+e Texto. 8. ed. Rio de Janeiro: Artes Médicas,
+2019.
+Figura 94. Exulceração ou erosão
+sem acoemtimento da derme
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA,
+A. P. Dermatologia de Fitzpatrick: Atlas e Texto.
+8. ed. Rio de Janeiro: Artes Médicas, 2019.
+Figura 95. Representação de
+úlcera na anatomia da pele
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAA-
+VEDRA, A. P. Dermatologia de Fitzpatrick:
+Atlas e Texto. 8. ed. Rio de Janeiro: Artes
+Médicas, 2019.
+Figura 96. Ulceração, em que há
+acometimento da derme
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA,
+A. P. Dermatologia de Fitzpatrick: Atlas e Texto. 8.
+ed. Rio de Janeiro: Artes Médicas, 2019.
+IV) Escama
+Consequência do desprendimento de células mortas do es-
+trato córneo. Pode ser seca, gordurosa, laminada, nacarada
+ou fina (furfurácea).
+Figura 97. Representação de escamas na anatomia da pele
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P. Dermatologia de Fitzpatrick: Atlas e Texto. 8. ed. Rio de Janeiro:
+Artes Médicas, 2019.
+Figura 98. Lesões de escamas
+Fonte: WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P. Dermatologia de Fitzpatrick: Atlas e Texto. 8. ed.
+Rio de Janeiro: Artes Médicas, 2019.
+Figura 99. A: Escama grossa em couro cabeludo em região temporal (psoríase crônica em placas). B: Distúrbio de pele (psoríase). C: Duas ceratoses actínicas
+com afinamento e enrugamento da pele, o que sugere dano solar crônico e grave.
+Fontes:  Science Photo Library;
+V) Escara
+Área de necrose tecidual, cor ne-
+gra, que evolui para úlcera quan-
+do eliminada. Exemplo: escara de
+decúbito.
+Figura 100. Lesão por pressão em estágio 3,
+que mostra tecido subcutâneo, mas sem expo-
+sição de músculos ou ossos
+Fonte: MSD - Manual da Saúde (Dr Barry Slaven/Science Photo
+Library).
+VI) Fissura
+Fenda linear, estreita e profunda.
+Mais exuberante nas áreas disten-
+didas por moviento (lábios, dobras,
+interdígito). Associações: eczema
+crônico e intertrigo.
+Figura 101. Eczema de mão crônico, hiperqueratótico e
+fissurado em homem de 69 anos
+Fonte: ykhoa.org (Diepgen TL, Yihune G, et al. Dermatology Online Atlas.
+Published online at:   Copyright © 1996-2015 DermIS).
+VII) Fístula
+Pertuito da pele pelo qual ocor-
+re drenagem de material supur-
+tivo ou necrótico profundo.
+Exemplo: tuberculose cutânea.
+Figura 102. Tuberculose cutânea (scrofu-
+loderma). Pacientes com escrofuloderma
+têm nódulos subcutâneos indolores e
+firmes que, com o tempo, alargam-se e
+formam úlceras e fístulas.
+Fonte: © Springer Science+Business Media.
+Resumindo...
+2) Lesões elementares secundárias:
+A) Alteração de espessura/consistência (atrofia, cicatriz, ede-
+ma, esclerose, liquenificação, queratose).
+B) Perda de substância (crosta, erosão/exulce-
+ração, ulceração/úlcera, escama, escara, fissura,
+fístula).
+CONSIDERAÇÕES FINAIS
+Atividade para prática e fixação de conteúdo
+1)Assinale a(s) alternativa(s) correta(s), que contém o exame físico dermatológico adequado,
+para a foto abaixo:
+I) PRIMEIRA ETAPA: Inspeção: TOPOGRAFIA: face (poupando área central); DISTRIBUIÇÃO:
+lesões simétricas (bilaterais); NÚMERO DE LESÕES: várias lesões, confluentes; MORFOLO-
+GIA: lesões elevadas (placas); cor vermelha/eritematosa intensa;
+II) SEGUNDA ETAPA: Palpação: RELEVO: lesão com relevo, em platô, maior de 1 cm (placa);
+TEXTURA: pele xerótica (seca); TEMPERATURA: pele quente (calor, rubor);
+III) TERCEIRA ETAPA: Digitopressão: haverá interrupção do fluxo sanguíneo dos vasos na
+área pressionada, caracterizando um ERITEMA;
+IV) QUARTA ETAPA: Compressão: haverá EDEMA;
+V) No exame físico dermatológico subjetivo, você poderá anotar os sintomas que a criança
+sente, que serão relatadas pela mãe, como prurido.
+a) Apenas a I está correta
+b) Apenas as alternativas II e IV estão corretas
+c) Apenas as alternativas I, II, III e V estão corretas
+d) Todas as alternativas estão corretas
+QUETÃO 1 – D
+2) Assinale a(s) alternativa(s) correta(s), que contém o exame físico dermatológico adequado,
+para a foto abaixo:
+I) A primeira etapa será a INSPEÇÃO: TOPOGRAFIA: dobras (flexuras); DISTRIBUIÇÃO:
+lesões simétricas (bilaterais); NÚMERO DE LESÕES:
+várias lesões, confluentes; MORFOLOGIA: exulcerações, crostas hemáticas e liquenificação
+(aumento sulco cutâneo); cor vermelha/eritematosa e acastanhadas;
+II)	SEGUNDA ETAPA: PALPAÇÃO:  RELEVO; TEXTURA: PELE XERÓTICA;
+III) TERCEIRA ETAPA: Digitopressão - em algumas áreas, há eritema;
+IV) Compressão: edema discreto;
+V)	No exame físico dermatológico subjetivo, você poderá anotar os sintomas que a criança
+sente, como pele seca.
+a) Apenas a II está correta
+b) Apenas as alternativas I e V estão corretas
+c) Todas as alternativas estão corretas
+d) Nenhuma alternativa está correta
+QUETÃO 2 – C
+Referências
+1. AZULAY, R. D. Dermatologia. 8. ed. Rio de Janeiro:
+Guanabara Koogan, 2022.
+2. JUNIOR, W. B.; Chiacchio N. D.; CRIADO, P. R.Tra-
+tado de Dermtologia: Volume 1. 3. ed. São Paulo:
+Editora Atheneu, 2018.
+3. SAMPAIO, S. A. P.; RIVITTI, E. A. Dermatologia.
+4. ed. São Paulo: Editora Artes Médicas, 2018.
+4.WOLFF, K.; JOHNSON, R. A.; SAAVEDRA, A. P.Der-
+matologia de Fitzpatrick: Atlas e Texto. 8. ed. Rio
+de Janeiro: Artes Médicas, 2019.
+
+======================================================================
+DOCUMENTO: PROTOCOLO ULCERA POR PRESSÃO_260609_194327
+ORIGEM: PROTOCOLO ULCERA POR PRESSÃO_260609_194327.pdf
+======================================================================
+
+MINISTERIO DA SAUDE
+Anexo 02: PROTOCOLO PARA PREVENÇÃO DE
+ÚLCERA POR PRESSÃO*
+
+Ministério da Saúde/ Anvisa/ Fiocruz
+09/07/2013
+
+PROTOCOLO PARA PREVENÇÃO DE ÚLCERA POR PRESSÃO
+1. Finalidade
+Promover a prevenção da ocorrência de úlcera por pressão (UPP) e outras lesões da pele.
+2. Justificativa
+Uma das consequências mais comuns, resultante de longa permanência em hospitais, é o
+aparecimento de alterações de pele. A incidência aumenta proporcionalmente à combinação de
+fatores de riscos, dentre eles, idade avançada e restrição ao leito.
+A manutenção da integridade da pele dos pacientes restritos ao leito tem por base o
+conhecimento e a aplicação de medidas de cuidado relativamente simples. A maioria das
+recomendações para avaliação da pele e as medidas preventivas podem ser utilizadas de maneira
+universal, ou seja, tem validade tanto para a prevenção de úlcera por pressão (UPP) como para
+quaisquer outras lesões da pele.
+Diferentemente de boa parte das alterações de pele, a UPP tem sido alvo de grande
+preocupação para os serviços de saúde, pois a sua ocorrência causa impacto tanto para os
+pacientes e seus familiares, quanto para o próprio sistema de saúde, com o prolongamento de
+internações, riscos de infecção e outros agravos evitáveis.
+Segundo dados da National Pressure Ulcer Advisory Panel (NPUAP), EUA, a
+prevalência de UPP em hospitais é de 15% e a incidência é de 7% ¹. No Reino Unido, casos
+novos de UPP acometem entre 4% a 10% dos pacientes admitidos em hospital². No Brasil,
+embora existam poucos trabalhos sobre incidência e prevalência de UPP, um estudo realizado
+em um hospital geral universitário evidenciou uma incidência de 39,81%³ .
+
+As taxas de incidência e prevalência na literatura apresentam variações que se devem às
+características dos pacientes e ao nível de cuidado, diferenciando-se em cuidados de longa
+permanência, cuidados agudos e atenção domiciliar:
+-
+Cuidados de longa permanência: as taxas de prevalência variam entre 2,3% a 28% e as taxas
+de incidência entre 2,2 % a 23,9%.4
+-
+Cuidados agudos: as taxas de a prevalência estão em torno de 10 a 18% e de incidência
+variam entre 0,4% a 38% 4.
+
+-
+Atenção Domiciliar: as taxas de prevalência variam entre 0% e 29% e as de incidência
+variam entre 0% e 17%4.
+Úlceras por pressão causam dano considerável aos pacientes, dificultando o processo de
+recuperação funcional, frequentemente causando dor e levando ao desenvolvimento de
+infecções graves, também têm sido associadas a internações prolongadas, sepse e mortalidade.
+Apesar da maioria das úlceras por pressão ser evitável, estima-se que aproximadamente
+600 mil pacientes em hospitais dos EUA evoluam a óbito a cada ano em decorrência de
+complicações secundárias à UPP. O custo total estimado do tratamento de UPP nos EUA é de
+11 bilhões de dólares por ano5.
+3. Abrangência (Âmbito, Ponto de Assistência e Local de Aplicação)
+As recomendações para a prevenção devem ser aplicadas a todos os indivíduos vulneráveis
+em todos os grupos etários. As intervenções devem ser adotadas por todos os profissionais de
+saúde envolvidos no cuidado de pacientes e de pessoas vulneráveis, que estejam em risco de
+desenvolver úlceras por pressão e que se encontrem em ambiente hospitalar, em cuidados
+continuados, em lares, independentemente de seu diagnóstico ou das necessidades de cuidados
+de saúde 6.
+4. Definição
+Para fins desta Portaria, considera-se as seguintes definições:
+4.1. Úlcera por pressão (UPP): lesão localizada da pele e/ou tecido subjacente, geralmente
+sobre uma proeminência óssea, resultante da pressão ou da combinação entre pressão e
+cisalhamento, causado pela fricção6,7. Outros fatores estão associados à UPP, mas seu
+papel ainda não foi completamente esclarecido 6.
+4.2. Cisalhamento: deformação que sofre um corpo quando sujeito à ação de forças
+cortantes 8.
+4.3. Estadiamento de UPP: classificação da UPP, que auxilia na descrição clínica da
+profundidade observável de destruição tecidual5.
+O Estadiamento de UPP encontra-se descrito no Apêndice I.
+
+5. Intervenções
+A maioria dos casos de UPP pode ser evitada por meio da identificação dos pacientes em
+risco e da implantação de estratégias de prevenção confiáveis para todos os pacientes
+identificados como de risco 5.
+As seis etapas  essenciais de uma estratégia de prevenção de UPP são 5:
+ETAPA 1
+5.1. Avaliação de úlcera por pressão na admissão de todos os pacientes
+A avaliação de admissão dos pacientes apresenta dois componentes:
+5.1.1. A avaliação do risco de desenvolvimento de UPP e;
+5.1.2. A avaliação da pele para detectar a existência de UPP ou lesões de pele já
+instaladas.
+A pronta identificação de pacientes em risco para o desenvolvimento de UPP, por meio
+da utilização de ferramenta validada, permite a adoção imediata de medidas preventivas. A
+avaliação de risco deve contemplar os seguintes fatores:
+a) mobilidade;
+b) incontinência;
+c) déficit sensitivo e;
+d) estado nutricional (incluindo desidratação).
+Obs. A escala de Braden é a ferramenta mais amplamente utilizada dentre as várias
+disponíveis. Em casos de pacientes pediátricos, deve-se utilizar uma ferramenta apropriada,
+como por exemplo, a escala de Braden Q.
+ETAPA 2
+5.2. Reavaliação diária de risco de desenvolvimento de UPP de todos os pacientes
+internados
+A complexidade e a gravidade dos pacientes internados resultam na necessidade de
+reavaliação diária do potencial e do risco de desenvolvimento de UPP. A reavaliação diária
+permite aos profissionais de saúde ajustar sua estratégia de prevenção conforme as necessidades
+
+do paciente. O grau de risco, conforme especificado em várias ferramentas, permite que os
+profissionais implantem estratégias individualizadas para os pacientes.
+5.2.1. Procedimento Operacional da Avaliação e Reavaliação de Risco (Etapas 1 e 2)
+Recomendação: Use uma abordagem estruturada de avaliação de risco para identificar
+indivíduos em risco de desenvolver UPP (Nível de Evidência C)6.
+
+Todo paciente deverá ser avaliado sistematicamente na admissão. Essa avaliação deve
+levar em consideração as fragilidades, vulnerabilidades e fatores de risco para o
+desenvolvimento de alterações de pele. Devem ser utilizadas escalas preditivas, com elevado
+grau de confiabilidade e especificidade.
+
+A avaliação do risco para desenvolvimento de UPP deverá ser executada através da
+Escala de Braden Q para crianças de 1 a 5 anos e Escala de Braden para pacientes com mais de
+5 anos
+As escalas de Braden e Braden Q caracterizarão o paciente sem risco, com risco baixo,
+moderado, alto ou muito alto para desenvolver UPP. A classificação do risco dá-se de maneira
+inversamente proporcional à pontuação, ou seja, quanto maior o número de pontos, menor é a
+classificação de risco para a ocorrência dessa lesão.
+As escalas preditivas são, entretanto, um parâmetro que deve ser utilizado em
+associação à avaliação clínica do enfermeiro. Assim, qualquer que seja o escore alcançado na
+escala, a avaliação clínica deverá ser soberana perante a existência de fatores de risco para UPP
+e de comorbidades inerentes ao desenvolvimento desta lesão cutânea. Um plano de cuidados
+específicos para prevenção de alterações cutâneas, portanto, deve ser implementado9 .
+A avaliação e a prescrição de cuidados com a pele é uma atribuição do enfermeiro,
+sendo que a participação da equipe multiprofissional na prevenção das alterações é fundamental
+na contribuição para a prescrição e no planejamento dos cuidados com o paciente em risco.
+Poderão ser necessários ajustes nutricionais, intervenções para auxiliar a mobilização ou
+mobilidade dos pacientes, entre outras medidas.
+ATENÇÃO: As etapas subsequentes (etapas 3 a 6), descritas a seguir, deverão ser
+utilizadas em todos os pacientes classificados como de risco nas etapas de avaliação
+anteriormente descritas (etapas 1 e 2).
+
+As medidas preventivas para UPP descritas a seguir devem ser instituídas pelo
+enfermeiro após a identificação dos fatores preditivos para o risco por meio de cuidados
+essenciais com a pele para a manutenção da integridade cutânea.
+ETAPA 3
+5.3. Inspeção diária da pele
+Pacientes que apresentam risco de desenvolvimento de UPP, de acordo com etapas 1 e
+2, necessitam de inspeção diária de toda a superfície cutânea, da cabeça aos pés. Estes
+pacientes, em geral hospitalizados, podem apresentar deterioração da integridade da pele em
+questão de horas. Em virtude da rápida mudança de fatores de risco em pacientes agudamente
+enfermos, a inspeção diária da pele é fundamental. Deve ser dada atenção especial a áreas de
+alto risco para desenvolvimento de UPP.
+A identificação das lesões da pele, como úlcera por pressão, deve ser feita de
+acordo com a definição e classificação internacional10 .
+5.3.1. Procedimento operacional da inspeção da pele (Etapa 3).
+Recomendação: Examine a pele do paciente cuidadosamente para identificar a existência de
+UPP (Nível de Evidência C) 6.
+
+Durante a admissão ou a readmissão, examine a pele do paciente cuidadosamente para
+identificar alterações da integridade cutânea e úlceras por pressão existentes. Para uma
+apropriada inspeção da pele, deve-se ter especial atenção às áreas corporais de maior risco para
+UPP, como as regiões anatômicas sacral, calcâneo, ísquio, trocanter, occipital, escapular,
+maleolar e regiões corporais submetidas à pressão por dispositivos como a presença de cateteres,
+tubos e drenos 9 .
+A realização de diagnóstico diferencial para a distinção entre os tipos de lesões (úlcera
+por pressão, úlcera arterial, úlcera venosa, úlcera neuropática e dermatites) melhora o
+tratamento e gerenciamento do cuidado 9.
+A inspeção da pele deve ocorrer em intervalos pré-definidos, cuja periodicidade é
+proporcional ao risco identificado. É necessário o registro apropriado e pontual das alterações
+encontradas.
+Obs. Pode ser necessário o aumento da frequência da inspeção em razão da piora do estado
+clínico do paciente (Nível de evidência B)6.
+
+ETAPA 4
+5.4. Manejo da Umidade: manutenção do paciente seco e com a pele hidratada
+Pele úmida é mais vulnerável, propícia ao desenvolvimento de lesões cutâneas, e tende
+a se romper mais facilmente. A pele deve ser limpa, sempre que apresentar sujidade e em
+intervalos regulares. O processo de limpeza deve incluir a utilização cuidadosa de um agente de
+limpeza suave que minimize a irritação e a secura da pele.
+Deve-se tomar cuidado para minimizar a exposição cutânea à umidade decorrente de
+incontinência, transpiração ou exsudato de feridas. Quando estas fontes de umidade não
+puderem ser controladas, a utilização de fraldas e absorventes é recomendada, com o objetivo de
+minimizar o contato da pele com a umidade. Agentes tópicos que atuam como barreiras contra a
+umidade e hidratam a pele também podem ser utilizados.
+O tratamento da pele ressecada com hidratantes tem se mostrado especialmente efetivo
+na prevenção de UPP.
+5.4.1. Procedimento Operacional das medidas preventivas para higiene, hidratação e
+manejo da umidade da pele (Etapa 4).
+a)
+Higienização e Hidratação da pele
+-
+Limpe a pele sempre que estiver suja ou sempre que necessário. É
+recomendada a utilização de água morna e sabão neutro para reduzir a
+irritação e o ressecamento da pele 11.
+-
+Use hidratantes na pele seca e em áreas ressecadas, principalmente após
+banho, pelo menos 1 vez ao dia (nível de evidência B). A pele seca
+parece ser um fator de risco importante e independente no
+desenvolvimento de úlceras por pressão6.
+-
+Durante a hidratação da pele, não massagear áreas de proeminências
+ósseas ou áreas hiperemiadas. A aplicação de hidratante deve ser realizada
+com movimentos suaves e circulares (nível de evidência B)6.
+-
+A massagem está contra-indicada na presença de inflamação aguda e onde
+existe a possibilidade de haver vasos sanguíneos danificados ou pele
+frágil. A massagem não deverá ser recomendada como uma estratégia de
+prevenção de úlceras por pressão (nível de evidência B)6,11.
+
+b)
+Manejo da umidade
+-
+Proteger a pele da exposição à umidade excessiva através do uso de
+produtos de barreira, de forma a reduzir o risco de lesão por pressão. As
+propriedades mecânicas do estrato córneo são alteradas pela presença de
+umidade, assim como a sua função de regulação da temperatura (nível de
+evidência C)6.
+-
+Controlar a umidade através da determinação da causa. Usar absorventes
+ou fraldas)6.
+-
+Quando possível, oferecer um aparador (comadre ou papagaio) nos
+horários de mudança de decúbito11.
+Observação: Além da incontinência urinária e fecal, a equipe de enfermagem deve ter atenção a
+outras fontes de umidade, como extravasamento de drenos sobre a pele, exsudato de feridas,
+suor e extravasamento de linfa em pacientes com anasarca que são potencialmente irritantes
+para a pele.
+ETAPA 5
+5.5. Otimização da nutrição e da hidratação
+A avaliação de pacientes com possível risco de desenvolvimento de UPP deve incluir a
+revisão de fatores nutricionais e de hidratação. Pacientes com déficit nutricional ou desidratação
+podem apresentar perda de massa muscular e de peso, tornando os ossos mais salientes e a
+deambulação mais difícil.
+Edema e menor fluxo sanguíneo cutâneo geralmente acompanham os déficits
+nutricionais e hídricos, resultando em lesões isquêmicas que contribuem para as lesões na pele.
+Pacientes mal nutridos podem apresentar uma probabilidade duas vezes maior de lesões
+cutâneas.
+Líquidos, proteínas e ingesta calórica são importantes aspectos para a manutenção de
+um estado nutricional adequado.  Suplementos nutricionais podem ser necessários caso a ingesta
+não seja suficiente. É recomendado que nutricionistas sejam consultados nos casos de pacientes
+com desnutrição a fim de avaliar e propor intervenções mais apropriadas.
+
+5.5.1. Procedimento operacional para Nutrição (Etapa 5)
+a) Notificar todos os indivíduos em risco nutricional ou em risco para úlcera
+por pressão ao nutricionista a fim de instituir as medidas nutricionais
+específicas (avaliar a necessidade calórica, vitamínica, minerais e demais
+nutrientes) para a prevenção de UPP.
+b) Avaliar e comunicar o nutricionista e a equipe médica sobre a presença de
+sinais clínicos de desnutrição ou que podem predispor alterações no
+estado nutricional: edema, perda de peso, disfagia, inapetência,
+desidratação, entre outros. Na vigência de baixa aceitação alimentar
+(inferior a 60% das necessidades nutricionais num período de cinco a sete
+dias), discutir com a equipe a possibilidade de sondagem6.
+c) Avaliar junto ao nutricionista e à equipe médica a necessidade de oferecer
+suplementos nutricionais, com alto teor protéico, além da dieta habitual, a
+indivíduos em risco nutricional e de úlcera por pressão (nível de evidência
+A).
+d) O nutricionista deverá avaliar a necessidade de instituir as medidas
+específicas nutricionais para a prevenção de UPP (vide Apêndice
+específico para nutrição).
+ETAPA 6
+5.6. Minimizar a pressão
+A redistribuição da pressão, especialmente sobre as proeminências ósseas, é a
+preocupação principal. Pacientes com mobilidade limitada apresentam risco maior de
+desenvolvimento de UPP. Todos os esforços devem ser feitos para redistribuir a pressão sobre a
+pele, seja pelo reposicionamento a cada 02 (duas) horas ou pela utilização de superfícies de
+redistribuição de pressão.
+O objetivo do reposicionamento a cada 2 horas é redistribuir a pressão e,
+consequentemente, manter a circulação nas áreas do corpo com risco de desenvolvimento de
+UPP. A literatura não sugere a frequência com que se deve reposicionar o paciente, mas duas
+horas em uma única posição é o máximo de tempo recomendado para pacientes com capacidade
+circulatória normal.
+
+O reposicionamento de pacientes de risco alterna ou alivia a pressão sobre áreas
+suscetíveis, reduzindo o risco de desenvolvimento de úlcera por pressão. Travesseiros e coxins
+são materiais facilmente disponíveis e que podem ser utilizados para auxiliar a redistribuição da
+pressão. Quando utilizados de forma apropriada, podem expandir a superfície que suporta o
+peso. Geralmente a pele de pacientes com risco para UPP rompe-se facilmente durante o
+reposicionamento, portanto, deve-se tomar cuidado com a fricção durante este procedimento.
+Superfícies de apoio específicas (como colchões, camas e almofadas) redistribuem a
+pressão que o corpo do paciente exerce sobre a pele e os tecidos subcutâneos. Se a mobilidade
+do paciente está comprometida e a pressão nesta interface não é redistribuída, a pressão pode
+prejudicar a circulação, levando ao surgimento da úlcera.
+Pacientes cirúrgicos submetidos à anestesia por período prolongado geralmente
+apresentam risco aumentado de desenvolvimento de UPP, portanto, todos estes pacientes (no
+momento pré, intra e pós-operatório) devem receber avaliação de risco da pele.
+Os profissionais de saúde devem implantar estratégias de prevenção, como garantir o
+reposicionamento do paciente e sua colocação em superfícies de redistribuição de pressão, para
+todos aqueles com risco identificado.
+5.6.1. Procedimento Operacional para Minimizar a Pressão (Etapa 6).
+a)
+Mudança de decúbito ou reposicionamento
+i.
+A mudança de decúbito deve ser executada para reduzir a duração e a
+magnitude da pressão exercida sobre áreas vulneráveis do corpo (nível de
+evidência A) 6.
+ii.
+A frequência da mudança de decúbito será influenciada por variáveis
+relacionadas ao indivíduo (tolerância tecidual, nível de atividade e
+mobilidade, condição clínica global, objetivo do tratamento, condição
+individual da pele, dor (nível de evidência C) e pelas superfícies de
+redistribuição de pressão em uso (nível de evidência A)6.
+iii.
+Avaliar a pele e o conforto individuais. Se o indivíduo não responde ao
+regime de posicionamentos conforme o esperado, reconsiderar a
+frequência e método dos posicionamentos (nível de evidência C)6.
+iv.
+A mudança de decúbito mantém o conforto, a dignidade e a capacitação
+funcional do indivíduo (nível de evidência C)6.
+
+v.
+Reposicionar o paciente de tal forma que a pressão seja aliviada ou
+redistribuída. Evitar sujeitar a pele à pressão ou forças de torção
+(cisalhamento). Evitar posicionar o paciente diretamente sobre sondas,
+drenos e sobre proeminências ósseas com hiperemia não reativa. O rubor
+indica que o organismo ainda não se recuperou da carga anterior e exige
+um intervalo maior entre cargas repetidas (nível de evidência C)6.
+vi.
+O reposicionamento deve ser feito usando 30º na posição de semi-Fowler
+e uma inclinação de 30º para posições laterais (alternadamente lado
+direito, dorsal e lado esquerdo), se o paciente tolerar estas posições e a sua
+condição clínica permitir. Evitar posturas que aumentem a pressão, tais
+como o Fowler acima dos 30º, a posição de deitado de lado a 90º, ou a
+posição de semi-deitado (nível de evidência C)6,11.
+vii.
+Se o paciente estiver sentado na cama, evitar elevar a cabeceira em ângulo
+superior a 30º, evitando a centralização e o aumento da pressão no sacro e
+no cóccix (nível de evidência C)6.
+viii.
+Quando sentado, se os pés do paciente não chegam ao chão, coloque-os
+sobre um banquinho ou apoio para os pés, o que impede que o paciente
+deslize para fora da cadeira (nível de evidência C). A altura do apoio para
+os pés deve ser escolhida de forma a fletir ligeiramente a bacia para
+frente, posicionando as coxas numa inclinação ligeiramente inferior à
+posição horizontal 6.
+ix.
+Deve-se restringir o tempo que o indivíduo passa sentado na cadeira sem
+alívio de pressão (nível de evidência B). Quando um indivíduo está
+sentado numa cadeira, o peso do corpo faz com que as tuberosidades
+isquiáticas fiquem sujeitas a um aumento de pressão. Quanto menor a
+área, maior a pressão que ela recebe. Consequentemente, sem alívio da
+pressão, a UPP surgirá muito rapidamente6.
+b)
+Medidas preventivas para fricção e cisalhamento
+i.
+Elevar a cabeceira da cama até no máximo 30º e evitar pressão direta nos
+trocanteres quando em posição lateral, limitando o tempo de cabeceira
+elevada, pois o corpo do paciente tende a escorregar, ocasionando fricção
+e cisalhamento (nível de evidência C)6,11.
+
+ii.
+A equipe de enfermagem deve usar forro móvel ou dispositivo mecânico
+de elevação para mover pacientes acamados durante transferência e
+mudança de decúbito. Sua utilização deve ser adequada para evitar o risco
+de fricção ou forças de cisalhamento.  Deve-se verificar se nada foi
+esquecido sob o corpo do paciente, para evitar dano tecidual (nível de
+evidência C)6,11.
+iii.
+Utilizar quadro de avisos próximo ao leito para estimular o paciente a
+movimentar-se na cama, quando necessário11.
+iv.
+Avaliar a necessidade do uso de materiais de curativos para proteger
+proeminências ósseas, a fim de evitar o desenvolvimento de úlcera por
+pressão por fricção11.
+Observação: Apesar da evidência de redução de cisalhamento no posicionamento da cabeceira
+até 30º, para os pacientes em ventilação mecânica e traqueostomizados com ventilação não
+invasiva, é recomendado decúbito acima de 30º para a prevenção de Pneumonia Associada à
+Ventilação – PAV.
+c)
+Materiais e equipamentos para redistribuição de pressão
+i.
+Uso de colchões e camas na prevenção de UPP
+-
+Utilizar colchões de espuma altamente específica em vez de colchões
+hospitalares padrão, em todos os indivíduos de risco para desenvolver
+UPP (nível de evidência A)6.
+-
+A seleção de uma superfície de apoio adequada deve levar em
+consideração fatores como o nível individual de mobilidade na cama, o
+conforto, a necessidade de controle do microclima, bem como o local e as
+circunstâncias da prestação de cuidados6,8. Todos os pacientes
+classificados como “em risco” deverão estar sob uma superfície de
+redistribuição de pressão (nível de evidência C).
+-
+Não utilizar colchões ou sobreposições de colchões de células pequenas
+de alternância de pressão com o diâmetro inferior a 10 cm (nível de
+evidência C)6.
+-
+Use uma superfície de apoio ativo (sobreposição ou colchão) para os
+pacientes com maior risco de desenvolvimento de úlceras por pressão,
+
+quando o reposicionamento manual frequente não é possível (nível de
+evidência B)6.
+-
+Sobreposições ativas de alternância de pressão e colchões de
+redistribuição de pressão têm uma eficácia semelhante em termos de
+incidência de úlceras por pressão (nível de evidência A)6.
+ii.
+Uso de superfícies de apoio para a prevenção de úlcera por pressão nos
+calcâneos
+-
+Os calcâneos devem ser mantidos afastados da superfície da cama (livres
+de pressão) (nível de evidência C)6.
+-
+Os dispositivos de prevenção de UPP nos calcâneos devem elevá-los de
+tal forma que o peso da perna seja distribuído ao longo da sua parte
+posterior, sem colocar pressão sobre o tendão de Aquiles. O joelho deve
+ter ligeira flexão (nível de evidência C)6.
+-
+Utilizar uma almofada ou travesseiro abaixo das pernas (região dos
+gêmeos) para elevar os calcâneos e mantê-los flutuantes (nível de
+evidência B)6.
+Observação: A hiperextensão do joelho pode causar obstrução da veia poplítea, que pode
+predispor a uma Trombose Venosa Profunda – TVP6.
+iii.
+Uso de superfície de apoio para prevenir úlceras por pressão na posição
+sentada
+-
+Utilizar um assento de redistribuição de pressão para os pacientes com
+mobilidade reduzida e que apresentam risco de desenvolvimento de
+úlceras por pressão quando estes estiverem sentados em uma cadeira
+(nível de evidência B). Almofadas de ar e espuma redistribuem melhor a
+pressão, já as almofadas de gel e de pele de carneiro causam maior
+pressão6.
+
+5.7. Medidas preventivas para úlcera por pressão conforme classificação de risco
+
+Os fatores de risco identificados na fase de avaliação fornecem informações para o
+desenvolvimento do plano de cuidados. Segue as recomendações das medidas preventivas
+conforme a classificação do risco: 11,12
+5.7.1. Risco baixo (15 a 18 pontos na escala de Braden).
+- Cronograma de mudança de decúbito;
+- Otimização da mobilização;
+- Proteção do calcanhar;
+- Manejo da umidade, nutrição, fricção e cisalhamento, bem como uso
+de superfícies de redistribuição de pressão.
+5.7.2.  Risco moderado (13 a 14 pontos na escala de Braden).
+-
+Continuar as intervenções do risco baixo;
+-
+Mudança de decúbito com posicionamento a 30°.
+
+5.7.3. Risco alto (10 a 12 pontos na escala de Braden).
+-
+Continuar as intervenções do risco moderado;
+-
+Mudança de decúbito frequente;
+-
+Utilização de coxins de espuma para facilitar a lateralização a 30º.
+5.7.4. Risco muito alto (≤ 9 pontos na escala de Braden).
+-
+Continuar as intervenções do risco alto;
+-
+Utilização de superfícies de apoio dinâmico com pequena perda de
+ar, se possível;
+-
+Manejo da dor.
+
+6. Estratégias de monitoramento e indicadores
+Sugerem-se 3 indicadores de processo (6.1 a 6.3) e um indicador de resultado (6.4) para a
+prevenção da UPP
+6.1. Percentual (%) de pacientes submetidos a avaliação de risco para UPP na admissão 5.
+6.2. Percentual (%) de pacientes de risco recebendo cuidado preventivo apropriado para
+UPP5.
+6.3. Percentual (%) de pacientes recebendo avaliação diária para risco de UPP5.
+6.4. Incidência de UPP.
+Referências bibliográficas
+Moore Zena EH, Cowman Seamus. Risk assessment tools for the prevention of
+pressure ulcers. Cochrane Database of Systematic Reviews. In: The Cochrane Library,
+Issue 3, 2009, Art.
+Benbow, M et all. Pressure ulcer risk assessment and prevention. Clinical Practice
+Guidelines. Royal College of Nursing: April, 2001.
+Rogenski NMB, Santos VLCG. Estudo sobre a incidência de úlceras por pressão em
+um hospital universitário.Rev Latino-am Enfermagem 2005 julho-agosto; 13(4):474-
+Cuddigan, J., Ayello, E. A., & Sussman, C. (Eds.) (2001). Pressure ulcers in America:
+Prevalence, incidence, and implications for the future. Reston, VA: National Pressure
+Ulcer Advisory Panel. Evidence Level I: Systematic Review/Meta-Analysis apud
+Preventing pressure ulcers and skin tears. In: Evidence-based geriatric nursing
+protocols for best practice [online]. National Guideline Clearinghouse. December
+2009. Disponível em:
+6&string=pressure+AND+ulcer
+Institute
+for
+Healthcare
+Improvement.
+How-to-Guide:
+Prevent
+Pressure
+Ulcers.Cambridge,MA: Institute for Healthcare Improvement; 2011. Disponível em
+.Acessado 26 Março 2013.
+
+.European Pressure Ulcer Advisory Panel and National Pressure Ulcer Advisory Panel.
+Prevention and treatment of pressure ulcers: quick reference guide. Washington DC:
+National Pressure Ulcer Advisory Panel;2009.
+WOCN Society Position Statement: Pressure Ulcer Staging, 2011. Acessado em
+26/3/13
+
+FBF0-44ED-B28B-C41E24551CCC/Position_Statement_-
+_Pressure_Ulcer_Staging_(2011).pdf
+Rycroft-Malone, J and McInness, E(2000) Pressure ulcer risk assessment and
+prevention.Technical Report.RCN:London
+10. American Medical Directors Association. Pressure Ulcers in Long-Term Care Setting
+Clinical Guideline. Columbia, MD: AMDA 2008.
+11. National Pressure Ulcer Advisory Panel. Pressure Ulcer Stages Revised by NPUAP
+[on-line]; 2007. Disponívelem :
+12. Preventing pressure ulcers and skin tears. In: Evidence-based geriatric nursing
+protocols for best practice [online]. National Guideline Clearinghouse. December
+2009. Disponível em:
+6&string=pressure+AND+ulcer
+13.  Virani, T et all. Risk Assessment and Prevention of Pressure Ulcers. RNAO, Toronto:
+2005.
+14. Ferreira, ABH. Novo Aurélio.1999. Editora Nova Fronteira
+
+APENDICE I
+Estadiamento de Ulceras Por Pressão – UPP
+Estágio I: eritema não branqueável6
+Pele intacta, com rubor não branqueável, numa área localizada, normalmente
+sobre uma proeminência óssea.
+O estágio I pode ser difícil de identificar em indivíduos com tons de pele escuros,
+visto que nestes o branqueamento pode não ser visível, a sua cor, porém, pode ser diferente
+da pele ao redor. A área pode estar dolorida, endurecida, mole, mais quente ou mais fria
+comparativamente ao tecido adjacente. Este estágio pode ser indicativo de pessoas “em
+risco”.
+Estágio II: perda parcial da espessura da pele 6
+Perda parcial da espessura da derme, que se apresenta como uma ferida
+superficial (rasa) com leito vermelho – rosa sem esfacelo. Pode também se apresentar
+como flictena fechada ou aberta, preenchida por líquido seroso ou sero-hemático.
+Apresenta-se ainda, como uma úlcera brilhante ou seca, sem crosta ou equimose (um
+indicador de lesão profunda).
+As características deste estágio não devem ser confundidas com fissuras de pele,
+queimaduras por abrasão, dermatite associada à incontinência, maceração ou escoriações.
+Estágio III: Perda total da espessura da pele6
+Perda total da espessura tecidual. Neste caso, o tecido adiposo subcutâneo pode
+ser visível, mas não estão expostos os ossos, tendões ou músculos. Pode estar presente
+algum tecido desvitalizado (fibrina úmida), mas este não oculta a profundidade da perda
+tecidual. Pode incluir lesão cavitária e encapsulamento.
+A profundidade de uma úlcera de estágio III varia de acordo com a localização
+anatômica. A asa do nariz, orelhas, região occipital e maléolos não têm tecido subcutâneo
+(adiposo) e uma úlcera de estágio III pode ser superficial.
+
+Em contrapartida, em zonas com tecido adiposo abundante podem desenvolver-se
+úlceras por pressão de estágio III extremamente profundas. O osso e o tendão não são
+visíveis ou diretamente palpáveis.
+
+Estágio IV: Perda total da espessura dos tecidos6
+Perda total da espessura dos tecidos com exposição dos ossos, tendões ou
+músculos. Neste caso, o tecido desvitalizado (fibrina úmida) e/ou tecido necrótico podem
+estar presentes.
+A profundidade de uma úlcera por pressão de estágio IV varia com a localização
+anatômica. Frequentemente são cavitadas e fistulizadas. A asa do nariz, orelhas, região
+occipital e maléolos não têm tecido subcutâneo (adiposo) e estas úlceras podem ser
+superficiais.
+Uma úlcera de estágio IV pode atingir o músculo e/ou estruturas de suporte (i.e.
+fáscia, tendão ou cápsula articular), tornando a osteomielite e a osteíte prováveis de
+acontecer. Existe osso ou músculo visível ou diretamente palpável.
+Outros estágios 6 :
+Inclassificáveis/Não graduáveis: Perda total da espessura da pele ou de tecidos –
+profundidade indeterminada
+Perda total da espessura dos tecidos, na qual a profundidade atual da úlcera está
+bloqueada pela presença de tecido necrótico (amarelo, acastanhado, cinzento, verde ou
+castanho) e/ou escara (tecido necrótico amarelo escuro, castanho ou preto) no leito da
+ferida.
+Até que seja removido tecido necrótico suficiente para expor a base da ferida, a
+verdadeira profundidade não pode ser determinada; é no entanto uma úlcera de estágio
+III ou IV.
+Obs. Uma escara estável (seca, aderente, intacta e sem eritema ou flutuação) nos
+calcâneos, serve como penso biológico natural e não deve ser removida.
+Suspeita de lesão nos tecidos profundos:
+
+Área vermelha escura ou púrpura localizada em pele intacta e descorada ou
+flictena preenchida com sangue, provocadas por danos no tecido mole subjacente pela
+pressão e/ou forças de torção. A área pode estar rodeada por tecido mais doloroso, firme,
+mole, úmido, quente ou frio comparativamente ao tecido adjacente.
+A lesão dos tecidos profundos pode ser difícil de identificar em indivíduos com
+tons de pele escuros. A evolução pode incluir uma flictena de espessura fina sobre o
+leito de uma ferida escura.
+A ferida pode evoluir adicionalmente ficando coberta por uma fina camada de
+tecido necrótico (escara). A sua evolução pode ser rápida expondo outras camadas de
+tecido adicionais mesmo com o tratamento adequado.
+
+APENDICE II
+
+SISTEMA DE CLASSIFICAÇÃO DE EVIDÊNCIAS CIENTÍFICAS DAS
+RECOMENDAÇÕES
+As recomendações deste protocolo são graduadas com base no número de estudos, na
+qualidade da pesquisa e na consistência de achados:
+Tabela 1. Nível de Evidência para Estudos Individuais6
+Nível
+Grandes estudos aleatórios com resultados claros (e baixo risco de erro).
+Pequenos estudos aleatórios com resultados incertos (e risco de erro de moderado a
+alto).
+Estudos não aleatórios com controles concorrentes ou contemporâneos.
+Estudos não aleatórios com controles históricos.
+Estudo de caso sem controle. Específicar número de sujeitos.
+
+Tabela 2. Escala de força de evidência para cada recomendação6
+Força da evidência
+A
+A recomendação tem por base  uma  evidência  científica direta, proveniente de estudos
+controlados, adequadamente desenhados e implementados, em úlceras por pressão em
+humanos (ou em humanos em risco de úlcera por pressão), que fornecem resultados
+estatísticos que sustentam de forma consistente a recomendação (são exigidos estudos de
+nível 1).
+B
+A recomendação tem por base evidência científica direta de estudos clínicos,
+adequadamente desenhados e implementados, em  úlceras por pressão em humanos (ou em
+humanos em risco de úlceras por pressão), que fornecem resultados estatísticos que
+sustentam a recomendação de forma consistente (estudos de nível 2, 3, 4 e 5).
+
+C
+A recomendação tem por base uma evidência indireta (i.e.,estudos em sujeitos humanos
+saudáveis, humanos com outro tipo de feridas crônicas, modelos animais) e/ou a opinião de
+peritos.
+
+Tabela 3: Classificação de Nível de evidência por cada recomendação6
+Nível
+I
+Resultados geralmente consistentes na maioria dos múltiplos estudos aceitáveis.
+II
+Recomendação fundamentada em um único estudo aceitável, ou resultados fracos ou
+inconsistentes em múltiplos estudos aceitáveis.
+III
+Evidências científicas limitadas, que não atingem todos os critérios de aceitabilidade
+dos estudos, ou ausência de estudos de boa qualidade diretamente aplicáveis. Isto inclui
+a opinião de especialistas.
+
+======================================================================
+DOCUMENTO: rodrigues-9788561673680-04
+ORIGEM: rodrigues-9788561673680-04.pdf
+======================================================================
+
+SciELO Books / SciELO Livros / SciELO Libros
+
+Unifesp, 2010. Lesões elementares no exame dermatológico, p. 33-44. ISBN 978-85-61673-68-0.
+Available from SciELO Books <
+
+All the contents of this work, except where otherwise noted, is licensed under a Creative Commons Attribution-Non
+Commercial-ShareAlike 3.0 Unported.
+Todo o conteúdo deste trabalho, exceto quando houver ressalva, é publicado sob a licença Creative Commons Atribuição -
+Uso Não Comercial - Partilha nos Mesmos Termos 3.0 Não adaptada.
+Todo el contenido de esta obra, excepto donde se indique lo contrario, está bajo licencia de la licencia Creative Commons
+Reconocimento-NoComercial-CompartirIgual 3.0 Unported.
+
+II - Lesões elementares no exame dermatológico
+
+Douglas A. Rodrigues
+Jane Tomimori
+Marcos C. Floriano
+Sofia Mendonça
+ii
+lesões elementares
+no exame dermatológico
+A descrição da lesão elementar permite
+direcionar o diagnóstico das doenças der-
+matológicas a partir do reconhecimento
+das lesões da pele e é parte fundamental do
+exame físico dermatológico. Deﬁnindo-se
+o diagnóstico é que se pode indicar o me-
+lhor tratamento do doente. A seguir, amos-
+tras dos exame dermatológicos de algumas
+lesões elementares mais encontradas nos
+povos indígenas, segundo a nossa observa-
+ção no trabalho de campo.
+pápula
+Lesão de conteúdo sólido, elevada, com ta-
+manho menor que 1 cm (Figura 1).
+placa
+Lesão de conteúdo sólido, elevada, com ta-
+manho maior que 1 cm, geralmente de su-
+perfície plana (Figura 2).
+nódulo
+Lesão de conteúdo sólido, de formato arre-
+dondado (“caroço”) que pode apresentar-se
+como uma elevação na pele ou como uma
+lesão mais profunda, com tamanho maior
+que 1 cm (Figura 3).
+verrucosidade
+Lesão de conteúdo sólido, com superfície
+irregular e branco-amarelada (Figura 4).
+vesícula
+Lesão de conteúdo líquido e claro, menor
+que 1 cm (Figura 5).
+bolha
+Lesão de conteúdo líquido, medindo mais
+de 1 cm (Figura 6).
+pústula
+Lesão de conteúdo purulento (amarelado),
+com menos de 1 cm (Figura 7).
+manchas eritematosas
+Alteração da cor, geralmente avermelhada,
+que desaparece quando se aperta a lesão
+(dígito-pressão) (Figura 8).
+manchas hipocrômicas e acrômicas
+Alteração da cor da pele, que se torna
+mais clara que a pele normal (hipocromia)
+(Figura 9), ou com coloração totalmente
+branca (acromia) (Figura 10).
+manchas hipercrômicas
+Alteração da cor da pele, que se torna mais
+escura que a pele normal (Figura 11).
+edema
+Extravasamento de líquidos nas camadas da
+pele, dando aspecto inchado, podendo se
+apresentar com a cor natural da pele ou com
+eritema (Figura 12).
+Figura 1. Pápulas na região dorsal.
+úlceras
+Perda da solução de continuidade da pele
+(“ferida”) (Figura 13).
+escamas
+Perda de camadas superﬁciais da pele (“des-
+camação”) (Figura 14).
+crostas
+Lesões que recobrem áreas em que há perda
+de solução de continuidade da pele (úlceras
+ou bolhas rompidas). Funcionam como um
+“curativo biológico” (Figura 15). A crosta
+pode ser da cor de mel (melicérica) ou cas-
+tanho-avermelhada (hemática).
+
+Figura 2. Placa com descamação e úlceras rasas na sua superfícies, localizada na perna.
+Figura 3. Nódulo recoberto por pele normal, na região cervical posterior.
+Figura 4. Verrucosidade (pápula com superfície verrucosa) na perna.
+Figura 5. Vesícula no pescoço.
+
+Figura 6. Bolhas de conteúdo claro no abdome.
+Figura 7. Pústulas sobre base eritematosa no dorso.
+Figura 8. Manchas eritematosas no antebraço e no dorso da mão.
+Figura 9. Mancha hipocrômica no antebraço.
+
+Figura 10. Mancha acrômica no ombro.
+Figura 11. Manchas hipercrômicas na coxa.
+Figura 12. Pápulas e placas edematosas no dorso (edema).
+Figura 13. Úlcera na coxa.
+
+Figura 14. Escama e eritema na perna.
+Figura 15. Crostas recobrindo úlcera na região dorsal.

@@ -6,7 +6,7 @@ from langchain_community.vectorstores import Chroma
 
 def preparar_banco_dados():
     # 1. Carregar o arquivo de texto com as orientações de primeiros socorros
-    loader = TextLoader("data/primeiros_socorros.txt", encoding="utf-8")
+    loader = TextLoader("data/corpus_vetorial.txt", encoding="utf-8")
     documentos = loader.load()
 
     # 2. Dividir o texto em pedaços (Chunks)
