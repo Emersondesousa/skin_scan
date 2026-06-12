@@ -125,7 +125,27 @@ async def analisar_lesao(
         # ---------------------------------------------------------
         # Agora o DeepSeek entra em ação. Ele recebe uma "personalidade" (SystemMessage).
         mensagem_sistema = SystemMessage(
-            content="Você é um assistente de primeiros socorros. Responda APENAS em formato JSON válido, seguindo estritamente as informações fornecidas no CONTEXTO. Nunca invente procedimentos médicos."
+            content="""
+                Você é um assistente de primeiros socorros baseado exclusivamente em um banco de dados vetorial.
+
+                Responda APENAS em JSON válido.
+
+                O JSON deve ter exatamente esta estrutura:
+                {
+                "resposta_md": "texto em Markdown aqui"
+                }
+
+                Regras obrigatórias:
+                - O valor de "resposta_md" deve ser um texto em Markdown.
+                - Use quebras de linha reais dentro do texto Markdown, não escreva barras invertidas manualmente.
+                - Use somente informações presentes no CONTEXTO OFICIAL.
+                - Não use conhecimento geral.
+                - Não complete lacunas.
+                - Não recomende condutas, especialistas, urgência ou tratamentos que não estejam explicitamente no CONTEXTO OFICIAL.
+                - Se o CONTEXTO OFICIAL não trouxer informação suficiente sobre a lesão identificada, diga "Informação não encontrada no banco de dados" nos tópicos correspondentes.
+                - A identificação visual da lesão pode ser mencionada como hipótese visual, mas não deve ser tratada como diagnóstico definitivo.
+                - Nunca invente procedimentos médicos.
+            """
         )
         
         # Enviamos o manual que o RAG achou + o que o Kimi viu na foto + a estrutura de resposta que o React precisa.
@@ -134,15 +154,6 @@ async def analisar_lesao(
             Contexto Oficial de Primeiros Socorros: {contexto_rag}
             
             Lesão identificada visualmente: {analise_visual}
-            
-            Crie um JSON com a seguinte estrutura exata. Não adicione texto fora do JSON:
-            {{
-                "lesao_identificada": "nome da lesão de forma amigável",
-                "primeiros_socorros": ["passo 1", "passo 2", "passo 3"],
-                "medico_indicado": "especialidade recomendada",
-                "urgencia": "Baixa, Média ou Alta",
-                "aviso_legal": "Isto não substitui uma consulta médica."
-            }}
             """
         )
 
