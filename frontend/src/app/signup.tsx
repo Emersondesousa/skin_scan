@@ -1,20 +1,9 @@
 import { Button } from "@/components/button";
 import Input from "@/components/input";
 import { Link, router } from "expo-router";
-import { useState } from "react";
-import { Alert, Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
 
-export default function Index(){
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
-
-    function handleSignIn() {
-        if (!email.trim() || !password.trim()){
-            return Alert.alert("Entrar", "Preencha e-mail e senha para entrar!")
-        }
-    return Alert.alert("Bem-vindo", `Login Realizado com ${email}`)    
-    }
-
+export default function SignUp(){
     return (
         <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ ios: "padding", android: "height" })}>
             <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
@@ -24,18 +13,18 @@ export default function Index(){
                         source={require("../../assets/images/logo_2.png")} style={styles.illustration}/>
                     </View>
                     <View style={styles.containerTittle}>
-                        <Text style={styles.title}>Entrar</Text>
-                        <Text style={styles.subtitle}>Acesse sua conta com e-mail e senha.</Text>
-                        {/* <Text style={styles.title}>Bem-vindo ao SkinScan</Text>
-                        <Text style={styles.subtitle}>Avaliação inteligente para apoiar o cuidado ao paciente.</Text> */}
+                        <Text style={styles.title}>Cadastrar</Text>
+                        <Text style={styles.subtitle}>Crie sua conta para acessar.</Text>
                     </View>
                     <View style={styles.form}>
-                        <Input placeholder="E-mail" autoFocus keyboardType="email-address" onChangeText={(text) => (setEmail(text))}></Input>
-                        <Input placeholder="Senha" secureTextEntry onChangeText={(text) => (setPassword(text))}></Input>
-                        <Button label="Entrar" style={styles.button} onPress={ () => router.replace("/assistant") }/>
+                        <Input placeholder="Nome"></Input>
+                        <Input placeholder="E-mail" keyboardType="email-address"></Input>
+                        <Input placeholder="Senha" secureTextEntry></Input>
+                        <Input placeholder="Confirmar Senha" secureTextEntry></Input>
+                        <Button label="Cadastrar" style={styles.button} onPress={() => router.push("/assistant")}/>
                     </View>
                     <Text style={styles.footerText}>
-                        Não tem uma conta?{" "}<Link href={"/signup"} style={styles.footerLink}>Cadastre-se aqui.</Link>
+                        Já tem uma conta? <Link href={"/"} style={styles.footerLink}>Entre aqui.</Link>
                     </Text>
                 </View>
             </ScrollView>
@@ -67,7 +56,7 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 25,
         fontWeight: 900,
-        marginTop: 40,
+        marginTop: 5,
         marginLeft: 10,
         color: "#f5f6f8"
     },
@@ -89,7 +78,6 @@ const styles = StyleSheet.create({
     footerText: {
         textAlign: "center",
         marginTop: 24,
-        //color: "#585860"
         color: "#f5f6f8"
     },
     footerLink: {

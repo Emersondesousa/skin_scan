@@ -12,7 +12,7 @@ export function Button({label, style, ...rest}: ButtonProps) {
 
 const styles = StyleSheet.create({
     container: {
-        width: "90%",
+        width: "100%",
         height: 48,
         backgroundColor: "#3CB371",
         alignItems: "center",

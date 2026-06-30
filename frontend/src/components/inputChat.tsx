@@ -1,18 +1,18 @@
-import Options from "@/app/components/modal";
 import { Ionicons } from "@expo/vector-icons";
 import EvilIcons from '@expo/vector-icons/EvilIcons';
 import { useState } from "react";
 import { StyleProp, StyleSheet, TextInput, TextInputProps, TouchableOpacity, View, ViewStyle } from "react-native";
+import Options from "./modal";
 
 type InputProps = TextInputProps & {style?: StyleProp<ViewStyle>;};
 
 
-export function Input({style, ...rest}: InputProps) {
+export function InputChat({style, ...rest}: InputProps) {
     const [ visible, setVisible ] = useState(false)
     
     return (
         <View style={[styles.container, style]}>
-            <Options visible={visible}></Options>
+            <Options visible={visible} onClose={() => setVisible(false)}></Options>
             <TouchableOpacity onPress={() => setVisible(!visible)}>
                 <Ionicons name="add-circle" size={35} color="#008080"/>
             </TouchableOpacity>

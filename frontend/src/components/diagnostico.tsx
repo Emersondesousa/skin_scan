@@ -7,7 +7,7 @@ export default function Diagnostico() {
                 <Text>Diagnóstico</Text>
             </View>
             <View>
-                <Image source={require("../../../assets/images/foto-queimadura.png")} style={styles.illustration}></Image>
+                <Image source={require("../../assets/images/foto-queimadura.png")} style={styles.illustration}></Image>
             </View>
             <View style={styles.diagnostico}>
                 <Text>Lesão compatível com queimadura de 3º grau</Text>
@@ -18,16 +18,18 @@ export default function Diagnostico() {
 
 const styles = StyleSheet.create({
     container: {
-
+        marginTop: 10,
+        gap: 5,
+        marginLeft: 15,
     },
     containerTitle: {
-
     },
     illustration: {
-        width: "100%",
+        width: "90%",
         height: 230,
+        marginLeft: 10,
+        borderRadius: 15,
     },
     diagnostico: {
-
     }
 })

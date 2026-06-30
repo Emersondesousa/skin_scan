@@ -1,19 +1,26 @@
-import Cabecalho from "@/app/components/header";
-import { Input } from "@/app/components/input";
-import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, View } from "react-native";
-
+import Diagnostico from "@/components/diagnostico";
+import Cabecalho from "@/components/header";
+import { InputChat } from "@/components/inputChat";
+import PhotoCam from "@/components/photo";
+import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function agentIa() {
+    
     return (
-        <View style={styles.container}>
-            <Cabecalho></Cabecalho>
-            <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ios: "padding", android: "height"})}>
-                <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsHorizontalScrollIndicator={false}>
-                    
-                </ScrollView>
-                <Input style={styles.input} placeholder="Descreva a lesão..."></Input>
-            </KeyboardAvoidingView>
-        </View>
+        <GestureHandlerRootView>
+            <SafeAreaView style={styles.container}>
+                    <Cabecalho></Cabecalho>
+                    <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ios: "padding", android: "padding"})}>
+                        <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsHorizontalScrollIndicator={false}>
+                            <Diagnostico></Diagnostico>
+                        </ScrollView>
+                        <PhotoCam></PhotoCam>
+                        <InputChat style={styles.input} placeholder="Descreva a lesão..." ></InputChat>
+                    </KeyboardAvoidingView>
+            </SafeAreaView>
+        </GestureHandlerRootView>
     )
 }
 
@@ -23,6 +30,6 @@ const styles = StyleSheet.create({
         backgroundColor: "#f5f6f8",
     },
     input: {
-        marginBottom: 10,
-    },
+        marginBottom: 5,
+    },  
 })
