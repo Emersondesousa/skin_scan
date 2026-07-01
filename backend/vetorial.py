@@ -1,6 +1,6 @@
 """
 Modulo de conexao com o banco vetorial (ChromaDB remoto).
-Este modulo fornece a instancia do vector_store para uso em outros modulos.
+Conexao lazy - conecta apenas quando necessario.
 """
 import chromadb
 from langchain_chroma import Chroma
@@ -12,22 +12,47 @@ CHROMADB_HOST = configuracao.CHROMADB_HOST
 CHROMADB_PORT = configuracao.CHROMADB_PORT
 CHROMADB_SSL = configuracao.CHROMADB_SSL
 
-# Modelo de embedding (multilingual, bom para portugues)
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-)
+# Variaveis globais (inicializadas depois)
+_vector_store = None
+_embeddings = None
 
-# Conecta ao ChromaDB remoto via HTTP/HTTPS
-cliente_chroma = chromadb.HttpClient(
-    host=CHROMADB_HOST,
-    port=CHROMADB_PORT,
-    ssl=CHROMADB_SSL,
-)
+def get_embeddings():
+    """Retorna o modelo de embedding (carrega uma vez so)."""
+    global _embeddings
+    if _embeddings is None:
+        _embeddings = HuggingFaceEmbeddings(
+            model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+        )
+    return _embeddings
 
-vector_store = Chroma(
-    client=cliente_chroma,
-    embedding_function=embeddings,
-    collection_name="skinscan",
-)
+def get_vector_store():
+    """Retorna o vector store (conecta na primeira chamada)."""
+    global _vector_store
+    if _vector_store is None:
+        print(f"[CHROMADB] Conectando em {CHROMADB_HOST}:{CHROMADB_PORT} (SSL={CHROMADB_SSL})...")
+        
+        cliente_chroma = chromadb.HttpClient(
+            host=CHROMADB_HOST,
+            port=CHROMADB_PORT,
+            ssl=CHROMADB_SSL,
+        )
+        
+        _vector_store = Chroma(
+            client=cliente_chroma,
+            embedding_function=get_embeddings(),
+            collection_name="skinscan",
+        )
+        
+        print(f"[CHROMADB] Conectado com sucesso!")
+    
+    return _vector_store
 
-print(f"[OK] Conectado ao ChromaDB em {CHROMADB_HOST}:{CHROMADB_PORT} (SSL={CHROMADB_SSL})")
+# Para compatibilidade - importar vector_store funciona
+# mas so conecta de verdade quando usado
+class VectorStoreProxy:
+    """Proxy que conecta ao ChromaDB apenas quando usado."""
+    def __getattr__(self, name):
+        store = get_vector_store()
+        return getattr(store, name)
+
+vector_store = VectorStoreProxy()
