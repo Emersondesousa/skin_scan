@@ -1,5 +1,5 @@
-// URL base do backend — mude para a URL do EasyPanel em produção
-const BASE_URL = "http://localhost:8000";
+// URL base — vazio para produção (nginx faz proxy), localhost para dev local
+const BASE_URL = "";
 
 // ==========================================
 // FUNÇÕES DE AUTENTICAÇÃO
