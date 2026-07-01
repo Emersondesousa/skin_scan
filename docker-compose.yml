@@ -3,14 +3,10 @@ services:
     build: ./backend
     container_name: skinscan-backend
     restart: unless-stopped
-    ports:
-      - "8000:8000"
 
   frontend:
     build: ./frontend
     container_name: skinscan-frontend
     restart: unless-stopped
-    ports:
-      - "80:80"
     depends_on:
       - backend
