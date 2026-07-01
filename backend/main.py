@@ -1,72 +1,66 @@
-import os
 import base64
 import json
-from fastapi import FastAPI, UploadFile, File, Form
+
+# Imports FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-# dotenv é essencial para carregar as variáveis do arquivo .env (onde ficam suas chaves)
-from dotenv import load_dotenv
+from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+
+# Imports arquivos locais
+from schemas import AnaliseResponse, CadastroRequest, LoginRequest, AuthResponse, UsuarioResponse
+from database import inicializar_banco, criar_usuario, buscar_usuario_por_email, buscar_usuario_por_id
+from auth import hash_senha, verificar_senha, criar_token, validar_token
+from config import configuracao
 
 # Imports do ecossistema LangChain
 from langchain_openai import ChatOpenAI
-from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.messages import HumanMessage, SystemMessage
 
-# Carrega as variáveis de ambiente (API_KEY e BASE_URL)
-load_dotenv()
+# Import do módulo vetorial (conexão com ChromaDB remoto)
+from vetorial import vector_store
 
 # Inicializa o aplicativo FastAPI
 app = FastAPI(title="API SkinScan - Análise de Lesões de Pele com IA")
 
+# Inicializa o banco de dados SQLite (cria a tabela se não existir)
+inicializar_banco()
+
 # ==========================================
 # 1. CONFIGURAÇÃO DE CORS
 # ==========================================
-# O CORS é um mecanismo de segurança dos navegadores. 
+# O CORS é um mecanismo de segurança dos navegadores.
 # precisamos avisar o backend que é seguro receber pedidos do React.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Em produção, troque "*" pela URL exata do seu front (ex: http://localhost:3000)
+    allow_origins=[
+        "*"
+    ],  # Em produção, troque "*" pela URL exata do seu front (ex: http://localhost:3000)
     allow_credentials=True,
-    allow_methods=["*"], # Permite todos os métodos HTTP (GET, POST, etc.)
-    allow_headers=["*"], # Permite todos os cabeçalhos
+    allow_methods=["*"],  # Permite todos os métodos HTTP (GET, POST, etc.)
+    allow_headers=["*"],  # Permite todos os cabeçalhos
 )
-
-# ==========================================
-# 2. CONEXÕES (Banco de Dados Vetorial)
-# ==========================================
-# Embeddings são transformadores: eles pegam um texto e viram um vetor matemático (números).
-# Precisamos usar EXATAMENTE o mesmo modelo de embedding que usamos no script 'ingest.py'.
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-)
-
-# Conecta ao banco de dados ChromaDB criado previamente na pasta local 'chroma_db'
-vector_store = Chroma(persist_directory="chroma_db", embedding_function=embeddings)
 
 # ==========================================
 # 3. CONFIGURAÇÃO DOS MODELOS IA (A ARQUITETURA HÍBRIDA)
 # ==========================================
 # Resgatando as chaves de segurança ocultas no sistema
-api_key_opencode = os.getenv("API_KEY_OPENCODE")
-base_url_opencode = os.getenv("BASE_URL_OPENCODE")
+api_key_opencode = configuracao.API_KEY_OPENCODE
+base_url_opencode = configuracao.BASE_URL_OPENCODE
 
 # MODELO 1: O OLHO (Kimi-k2.5)
 # Usado APENAS para ler a imagem, pois ele suporta multimodalidade (visão).
 llm_visao = ChatOpenAI(
-    api_key=api_key_opencode,
-    base_url=base_url_opencode,
-    model="kimi-k2.5" 
+    api_key=api_key_opencode, base_url=base_url_opencode, model="kimi-k2.5"
 )
 
 # MODELO 2: O CÉREBRO (DeepSeek-V4-Flash)
-# Usado para ler o contexto do RAG e gerar o texto final em JSON. 
+# Usado para ler o contexto do RAG e gerar o texto final em JSON.
 # Como ele tem um limite enorme na assinatura GO, economizamos processamento aqui.
 llm_texto = ChatOpenAI(
-    api_key=api_key_opencode,
-    base_url=base_url_opencode,
-    model="deepseek-v4-flash"
+    api_key=api_key_opencode, base_url=base_url_opencode, model="deepseek-v4-flash"
 )
+
 
 # ==========================================
 # 4. FUNÇÕES AUXILIARES
@@ -78,14 +72,19 @@ def codificar_imagem_base64(conteudo_imagem):
     """
     return base64.b64encode(conteudo_imagem).decode("utf-8")
 
+
 # ==========================================
 # 5. A ROTA PRINCIPAL (Endpoint)
 # ==========================================
 # Esta é a porta de entrada onde o React vai enviar o POST com a foto e os sintomas.
-@app.post("/api/analyze-injury")
+@app.post(
+    "/api/analyze-injury",
+    response_model=AnaliseResponse,
+    summary="Analisar lesão de pele",
+)
 async def analisar_lesao(
     file: UploadFile = File(...),
-    sintomas: str = Form(default="O usuário não relatou sintomas adicionais.")
+    sintomas: str = Form(default="O usuário não relatou sintomas adicionais."),
 ):
     try:
         # Pega o arquivo cru recebido e transforma em Base64 para a IA entender
@@ -98,14 +97,19 @@ async def analisar_lesao(
         # Aqui enviamos a foto para o Kimi. A instrução é clara: não dê diagnóstico, apenas descreva.
         mensagem_visao = HumanMessage(
             content=[
-                {"type": "text", "text": f"Descreva esta lesão de pele brevemente. Sintomas relatados: {sintomas}. Responda em uma única frase curta dizendo qual é o tipo provável de lesão visualmente."},
+                {
+                    "type": "text",
+                    "text": f"Descreva esta lesão de pele brevemente. Sintomas relatados: {sintomas}. Responda em uma única frase curta dizendo qual é o tipo provável de lesão visualmente.",
+                },
                 {
                     "type": "image_url",
-                    "image_url": {"url": f"data:{file.content_type};base64,{imagem_base64}"},
+                    "image_url": {
+                        "url": f"data:{file.content_type};base64,{imagem_base64}"
+                    },
                 },
             ]
         )
-        
+
         # Faz a chamada para o llm_visao (Kimi)
         analise_visual = llm_visao.invoke([mensagem_visao]).content
         print(f"Kimi detectou visualmente: {analise_visual}")
@@ -115,8 +119,8 @@ async def analisar_lesao(
         # ---------------------------------------------------------
         # A IA viu algo (ex: "queimadura com bolhas"). Jogamos essa frase no banco de dados.
         # O ChromaDB devolve os 'k=2' pedaços de texto do seu manual médico que mais combinam com isso.
-        resultados_busca = vector_store.similarity_search(analise_visual, k=2) 
-        
+        resultados_busca = vector_store.similarity_search(analise_visual, k=2)
+
         # Juntamos os textos encontrados em um único grande parágrafo para enviar à IA
         contexto_rag = "\n\n".join([doc.page_content for doc in resultados_busca])
 
@@ -147,7 +151,7 @@ async def analisar_lesao(
                 - Nunca invente procedimentos médicos.
             """
         )
-        
+
         # Enviamos o manual que o RAG achou + o que o Kimi viu na foto + a estrutura de resposta que o React precisa.
         mensagem_final = HumanMessage(
             content=f"""
@@ -166,20 +170,64 @@ async def analisar_lesao(
         try:
             # Algumas IAs retornam o JSON envolvido em blocos de código markdown (```json ... ```).
             # Precisamos limpar isso para o Python conseguir ler como um dicionário real.
-            resposta_limpa = resposta_final.replace("```json\n", "").replace("\n```", "").strip()
-            
+            resposta_limpa = (
+                resposta_final.replace("```json\n", "").replace("\n```", "").strip()
+            )
+
             # Converte a string de texto puro em um objeto JSON
             dados_json = json.loads(resposta_limpa)
-            
+
             # Devolve o JSON bonitinho para o colega que está fazendo o React
-            return JSONResponse(content=dados_json)
-            
+            return AnaliseResponse(resposta_md=dados_json["resposta_md"])
+
         except:
-            # Fallback de segurança: se a IA por algum motivo não gerar um JSON válido, 
+            # Fallback de segurança: se a IA por algum motivo não gerar um JSON válido,
             # não quebramos a API, apenas avisamos o erro e mandamos o texto cru.
             return {"erro": "Erro ao formatar resposta", "raw": resposta_final}
 
     except Exception as e:
-        # Se qualquer coisa falhar (banco de dados fora, API da OpenCode fora), 
+        # Se qualquer coisa falhar (banco de dados fora, API da OpenCode fora),
         # devolvemos o Erro 500 para o React saber que o problema foi no servidor.
         return JSONResponse(status_code=500, content={"erro": str(e)})
+
+
+# ==========================================
+# 6. ROTAS DE AUTENTICAÇÃO
+# ==========================================
+
+security = HTTPBearer()
+
+def obter_usuario_atual(credentials: HTTPAuthorizationCredentials = Depends(security)):
+    usuario_id = validar_token(credentials.credentials)
+    if usuario_id is None:
+        raise HTTPException(status_code=401, detail="Token inválido ou expirado")
+    usuario = buscar_usuario_por_id(usuario_id)
+    if usuario is None:
+        raise HTTPException(status_code=401, detail="Usuário não encontrado")
+    return usuario
+
+@app.post("/api/cadastro", response_model=AuthResponse, summary="Cadastrar novo usuário")
+async def cadastro(dados: CadastroRequest):
+    usuario_existente = buscar_usuario_por_email(dados.email)
+    if usuario_existente:
+        raise HTTPException(status_code=400, detail="Este e-mail já está cadastrado")
+    senha_hashed = hash_senha(dados.senha)
+    novo_usuario = criar_usuario(dados.nome, dados.email, senha_hashed)
+    if novo_usuario is None:
+        raise HTTPException(status_code=500, detail="Erro ao criar usuário")
+    token = criar_token(novo_usuario["id"])
+    return AuthResponse(token=token, usuario=novo_usuario)
+
+@app.post("/api/login", response_model=AuthResponse, summary="Fazer login")
+async def login(dados: LoginRequest):
+    usuario = buscar_usuario_por_email(dados.email)
+    if usuario is None:
+        raise HTTPException(status_code=401, detail="E-mail ou senha incorretos")
+    if not verificar_senha(dados.senha, usuario["senha_hash"]):
+        raise HTTPException(status_code=401, detail="E-mail ou senha incorretos")
+    token = criar_token(usuario["id"])
+    return AuthResponse(token=token, usuario={"id": usuario["id"], "nome": usuario["nome"], "email": usuario["email"]})
+
+@app.get("/api/me", response_model=UsuarioResponse, summary="Dados do usuário logado")
+async def eu(usuario: dict = Depends(obter_usuario_atual)):
+    return usuario

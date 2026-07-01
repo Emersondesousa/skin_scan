@@ -4,11 +4,22 @@ import { useState } from "react";
 import { StyleProp, StyleSheet, TextInput, TextInputProps, TouchableOpacity, View, ViewStyle } from "react-native";
 import Options from "./modal";
 
-type InputProps = TextInputProps & {style?: StyleProp<ViewStyle>;};
+type InputProps = TextInputProps & {
+    style?: StyleProp<ViewStyle>;
+    onSend?: (texto: string) => void;
+};
 
 
-export function InputChat({style, ...rest}: InputProps) {
+export function InputChat({style, onSend, ...rest}: InputProps) {
     const [ visible, setVisible ] = useState(false)
+    const [ texto, setTexto ] = useState("")
+
+    function handleEnviar() {
+        if (texto.trim() && onSend) {
+            onSend(texto.trim())
+            setTexto("")
+        }
+    }
     
     return (
         <View style={[styles.container, style]}>
@@ -16,8 +27,14 @@ export function InputChat({style, ...rest}: InputProps) {
             <TouchableOpacity onPress={() => setVisible(!visible)}>
                 <Ionicons name="add-circle" size={35} color="#008080"/>
             </TouchableOpacity>
-            <TextInput style={styles.input} placeholderTextColor="#9CA3AF" {...rest}/>  
-            <TouchableOpacity>
+            <TextInput 
+                style={styles.input} 
+                placeholderTextColor="#9CA3AF" 
+                value={texto}
+                onChangeText={setTexto}
+                {...rest}
+            />  
+            <TouchableOpacity onPress={handleEnviar}>
                 <EvilIcons name="arrow-up" size={45} color="black"/>
             </TouchableOpacity>
         </View>   

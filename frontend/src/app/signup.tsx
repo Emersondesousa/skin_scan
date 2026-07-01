@@ -1,9 +1,38 @@
 import { Button } from "@/components/button";
 import Input from "@/components/input";
+import { useAuth } from "@/context/authContext";
 import { Link, router } from "expo-router";
-import { Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import { useState } from "react";
+import { Alert, Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function SignUp(){
+    const [nome, setNome] = useState("")
+    const [email, setEmail] = useState("")
+    const [senha, setSenha] = useState("")
+    const [confirmarSenha, setConfirmarSenha] = useState("")
+    const [carregando, setCarregando] = useState(false)
+    const { signUp } = useAuth()
+
+    async function handleSignUp() {
+        if (!nome.trim() || !email.trim() || !senha.trim() || !confirmarSenha.trim()){
+            return Alert.alert("Cadastrar", "Preencha todos os campos!")
+        }
+        if (senha !== confirmarSenha){
+            return Alert.alert("Cadastrar", "As senhas não coincidem!")
+        }
+        if (senha.length < 8){
+            return Alert.alert("Cadastrar", "A senha deve ter pelo menos 8 caracteres!")
+        }
+        setCarregando(true)
+        try {
+            await signUp(nome, email, senha)
+            router.replace("/assistant")
+        } catch (erro: any) {
+            Alert.alert("Erro", erro.message || "Erro ao cadastrar")
+        } finally {
+            setCarregando(false)
+        }
+    }
     return (
         <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ ios: "padding", android: "height" })}>
             <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
@@ -17,11 +46,11 @@ export default function SignUp(){
                         <Text style={styles.subtitle}>Crie sua conta para acessar.</Text>
                     </View>
                     <View style={styles.form}>
-                        <Input placeholder="Nome"></Input>
-                        <Input placeholder="E-mail" keyboardType="email-address"></Input>
-                        <Input placeholder="Senha" secureTextEntry></Input>
-                        <Input placeholder="Confirmar Senha" secureTextEntry></Input>
-                        <Button label="Cadastrar" style={styles.button} onPress={() => router.push("/assistant")}/>
+                        <Input placeholder="Nome" onChangeText={setNome}></Input>
+                        <Input placeholder="E-mail" keyboardType="email-address" onChangeText={setEmail}></Input>
+                        <Input placeholder="Senha" secureTextEntry onChangeText={setSenha}></Input>
+                        <Input placeholder="Confirmar Senha" secureTextEntry onChangeText={setConfirmarSenha}></Input>
+                        <Button label={carregando ? "Cadastrando..." : "Cadastrar"} style={styles.button} onPress={handleSignUp} disabled={carregando}/>
                     </View>
                     <Text style={styles.footerText}>
                         Já tem uma conta? <Link href={"/"} style={styles.footerLink}>Entre aqui.</Link>

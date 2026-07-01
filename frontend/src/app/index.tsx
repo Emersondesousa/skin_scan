@@ -1,5 +1,6 @@
 import { Button } from "@/components/button";
 import Input from "@/components/input";
+import { useAuth } from "@/context/authContext";
 import { Link, router } from "expo-router";
 import { useState } from "react";
 import { Alert, Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
@@ -7,12 +8,22 @@ import { Alert, Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, T
 export default function Index(){
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    const [carregando, setCarregando] = useState(false)
+    const { signIn } = useAuth()
 
-    function handleSignIn() {
+    async function handleSignIn() {
         if (!email.trim() || !password.trim()){
             return Alert.alert("Entrar", "Preencha e-mail e senha para entrar!")
         }
-    return Alert.alert("Bem-vindo", `Login Realizado com ${email}`)    
+        setCarregando(true)
+        try {
+            await signIn(email, password)
+            router.replace("/assistant")
+        } catch (erro: any) {
+            Alert.alert("Erro", erro.message || "Erro ao fazer login")
+        } finally {
+            setCarregando(false)
+        }
     }
 
     return (
@@ -32,7 +43,7 @@ export default function Index(){
                     <View style={styles.form}>
                         <Input placeholder="E-mail" autoFocus keyboardType="email-address" onChangeText={(text) => (setEmail(text))}></Input>
                         <Input placeholder="Senha" secureTextEntry onChangeText={(text) => (setPassword(text))}></Input>
-                        <Button label="Entrar" style={styles.button} onPress={ () => router.replace("/assistant") }/>
+                        <Button label={carregando ? "Entrando..." : "Entrar"} style={styles.button} onPress={handleSignIn} disabled={carregando}/>
                     </View>
                     <Text style={styles.footerText}>
                         Não tem uma conta?{" "}<Link href={"/signup"} style={styles.footerLink}>Cadastre-se aqui.</Link>

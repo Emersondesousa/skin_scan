@@ -1,14 +1,37 @@
 import DrawerContent from "@/components/drawerOptions";
+import { AuthProvider, useAuth } from "@/context/authContext";
 import { PhotoProvider } from "@/context/photoContext";
 import { Drawer } from "expo-router/drawer";
+import { ActivityIndicator, View } from "react-native";
+
+function LayoutInterno() {
+  const { usuario, isLoading } = useAuth();
+
+  if (isLoading) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center", backgroundColor: "#f5f6f8" }}>
+        <ActivityIndicator size="large" color="#008080" />
+      </View>
+    );
+  }
+
+  return (
+    <Drawer screenOptions={{headerShown: false, drawerStyle: {width: 260}}} drawerContent={() => <DrawerContent/>}>
+      {usuario ? (
+        <Drawer.Screen name="assistant"/>
+      ) : (
+        <Drawer.Screen name="index"/>
+      )}
+    </Drawer>
+  );
+}
 
 export default function Layout() {
   return (
-    <PhotoProvider>
-      <Drawer screenOptions={{headerShown: false, drawerStyle: {width: 260}}} drawerContent={() => <DrawerContent/>}>
-        <Drawer.Screen name="assistant"/>
-        <Drawer.Screen name="index"/>
-      </Drawer>
-    </PhotoProvider>
+    <AuthProvider>
+      <PhotoProvider>
+        <LayoutInterno />
+      </PhotoProvider>
+    </AuthProvider>
   );
 }
