@@ -1,5 +1,7 @@
-// URL base — vazio para produção (nginx faz proxy), localhost para dev local
-const BASE_URL = "";
+// URL base do backend
+// Em produção: URL externa do backend no EasyPanel
+// Em dev local: vazio (proxy do Expo) ou http://localhost:8000
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || "";
 
 // ==========================================
 // FUNÇÕES DE AUTENTICAÇÃO

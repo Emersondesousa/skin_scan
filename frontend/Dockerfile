@@ -3,6 +3,10 @@ FROM node:20-slim AS build
 
 WORKDIR /app
 
+# Argumento da URL do backend (passado no build)
+ARG EXPO_PUBLIC_API_URL=""
+ENV EXPO_PUBLIC_API_URL=$EXPO_PUBLIC_API_URL
+
 # Copiar package.json e instalar dependencias
 COPY package.json package-lock.json ./
 RUN npm ci
