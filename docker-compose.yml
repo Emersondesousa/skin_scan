@@ -1,12 +1,8 @@
-version: "3.8"
-
 services:
   backend:
     build: ./backend
     container_name: skinscan-backend
     restart: unless-stopped
-    env_file:
-      - ./backend/.env
     ports:
       - "8000:8000"
 

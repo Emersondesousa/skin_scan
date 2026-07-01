@@ -8,12 +8,12 @@ class Configuracao(BaseSettings):
     )
 
     # Auth
-    JWT_SECRET: str
-    JWT_HORAS_EXPIRACAO: int
+    JWT_SECRET: str = "skinscan-secret-padrao-mude-em-producao"
+    JWT_HORAS_EXPIRACAO: int = 24
 
     # IA
-    API_KEY_OPENCODE: str 
-    BASE_URL_OPENCODE: str 
+    API_KEY_OPENCODE: str = ""
+    BASE_URL_OPENCODE: str = "https://opencode.ai/zen/go/v1"
     
     # ChromaDB
     CHROMADB_HOST: str = "localhost"
