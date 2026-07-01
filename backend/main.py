@@ -48,18 +48,29 @@ app.add_middleware(
 api_key_opencode = configuracao.API_KEY_OPENCODE
 base_url_opencode = configuracao.BASE_URL_OPENCODE
 
-# MODELO 1: O OLHO (Kimi-k2.5)
-# Usado APENAS para ler a imagem, pois ele suporta multimodalidade (visão).
-llm_visao = ChatOpenAI(
-    api_key=api_key_opencode, base_url=base_url_opencode, model="kimi-k2.5"
-)
+# LLMs inicializados de forma lazy (na primeira chamada)
+_llm_visao = None
+_llm_texto = None
 
-# MODELO 2: O CÉREBRO (DeepSeek-V4-Flash)
-# Usado para ler o contexto do RAG e gerar o texto final em JSON.
-# Como ele tem um limite enorme na assinatura GO, economizamos processamento aqui.
-llm_texto = ChatOpenAI(
-    api_key=api_key_opencode, base_url=base_url_opencode, model="deepseek-v4-flash"
-)
+def get_llm_visao():
+    """Retorna o modelo de visão (Kimi-k2.5)."""
+    global _llm_visao
+    if _llm_visao is None:
+        print(f"[LLM] Inicializando Kimi-k2.5...")
+        _llm_visao = ChatOpenAI(
+            api_key=api_key_opencode, base_url=base_url_opencode, model="kimi-k2.5"
+        )
+    return _llm_visao
+
+def get_llm_texto():
+    """Retorna o modelo de texto (DeepSeek-V4-Flash)."""
+    global _llm_texto
+    if _llm_texto is None:
+        print(f"[LLM] Inicializando DeepSeek-V4-Flash...")
+        _llm_texto = ChatOpenAI(
+            api_key=api_key_opencode, base_url=base_url_opencode, model="deepseek-v4-flash"
+        )
+    return _llm_texto
 
 
 # ==========================================
@@ -111,7 +122,7 @@ async def analisar_lesao(
         )
 
         # Faz a chamada para o llm_visao (Kimi)
-        analise_visual = llm_visao.invoke([mensagem_visao]).content
+        analise_visual = get_llm_visao().invoke([mensagem_visao]).content
         print(f"Kimi detectou visualmente: {analise_visual}")
 
         # ---------------------------------------------------------
@@ -162,7 +173,7 @@ async def analisar_lesao(
         )
 
         # Faz a chamada para o llm_texto (DeepSeek)
-        resposta_final = llm_texto.invoke([mensagem_sistema, mensagem_final]).content
+        resposta_final = get_llm_texto().invoke([mensagem_sistema, mensagem_final]).content
 
         # ---------------------------------------------------------
         # PASSO D: TRATAMENTO DA RESPOSTA PARA O FRONTEND
