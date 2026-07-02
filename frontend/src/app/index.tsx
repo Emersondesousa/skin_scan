@@ -15,11 +15,14 @@ export default function Index(){
         if (!email.trim() || !password.trim()){
             return Alert.alert("Entrar", "Preencha e-mail e senha para entrar!")
         }
+        console.log("Tentando login com:", email)
         setCarregando(true)
         try {
             await signIn(email, password)
+            console.log("Login OK!")
             router.replace("/assistant")
         } catch (erro: any) {
+            console.log("Erro no login:", erro.message)
             Alert.alert("Erro", erro.message || "Erro ao fazer login")
         } finally {
             setCarregando(false)
