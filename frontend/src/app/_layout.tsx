@@ -3,6 +3,8 @@ import { AuthProvider, useAuth } from "@/context/authContext";
 import { PhotoProvider } from "@/context/photoContext";
 import { Drawer } from "expo-router/drawer";
 import { ActivityIndicator, View } from "react-native";
+import Toast from "react-native-toast-message";
+
 
 function LayoutInterno() {
   const { usuario, isLoading } = useAuth();
@@ -31,6 +33,7 @@ export default function Layout() {
     <AuthProvider>
       <PhotoProvider>
         <LayoutInterno />
+        <Toast />
       </PhotoProvider>
     </AuthProvider>
   );

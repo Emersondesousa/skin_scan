@@ -45,7 +45,7 @@ export default function CameraPicture() {
     return (
         <View style={styles.container}>
             <Cabecalho></Cabecalho>
-            <CameraView ref={cameraRef} facing={facing} style={styles.container} />
+            <CameraView key={facing} ref={cameraRef} facing={facing} style={styles.container} />
             <TouchableOpacity style={styles.button} onPress={handlePic} />
             <TouchableOpacity style={styles.buttonVirarCam} onPress={toggleCameraFacing}>
                 <MaterialIcons name="cameraswitch" size={44} color="white"/>  

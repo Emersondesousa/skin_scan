@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
@@ -51,3 +52,120 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+=======
+# ==========================================
+# ROOT .gitignore — SkinScan Project
+# ==========================================
+
+# ==========================================
+# BACKEND
+# ==========================================
+
+# Ambiente virtual Python
+backend/.venv/
+backend/venv/
+
+# Cache do Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+
+# Cache do Ruff (linter)
+backend/.ruff_cache/
+
+# Banco de dados vetorial (grande, deve ser recriado)
+backend/chroma_db/
+
+# Banco SQLite (dados de usuários, gerado em runtime)
+backend/skinscan.db
+
+# Arquivo .env (contém segredos)
+backend/.env
+
+# PDFs (grandes, não devem ir pro repo)
+backend/data/pdfs/
+**/*.pdf
+
+# ==========================================
+# FRONTEND
+# ==========================================
+
+# Dependências Node
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/web-build/
+
+# Cache do Expo
+frontend/.expo/
+
+# Configurações de IDE (opcionais — remover se quiser compartilhar)
+frontend/.claude/
+frontend/.vscode/
+
+# Lock do npm (usar package-lock.json em vez)
+# Nota: manter package-lock.json para builds reproduzíveis
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==========================================
+# EDITORES / IDEs
+# ==========================================
+
+# VS Code (descomente se não quiser compartilhar settings)
+# .vscode/
+
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# ==========================================
+# DOCKER
+# ==========================================
+
+# Volumes Docker locais
+backend-data/
+
+# ==========================================
+# OUTROS
+# ==========================================
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage de testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Cache de build
+build/
+*.egg-info/
+dist/
+>>>>>>> d9e6e3a02e96d703ee12e5ee59ea17cd4d3c0ba5

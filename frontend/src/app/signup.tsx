@@ -3,7 +3,8 @@ import Input from "@/components/input";
 import { useAuth } from "@/context/authContext";
 import { Link, router } from "expo-router";
 import { useState } from "react";
-import { Alert, Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import Toast from "react-native-toast-message";
 
 export default function SignUp(){
     const [nome, setNome] = useState("")
@@ -14,25 +15,56 @@ export default function SignUp(){
     const { signUp } = useAuth()
 
     async function handleSignUp() {
-        if (!nome.trim() || !email.trim() || !senha.trim() || !confirmarSenha.trim()){
-            return Alert.alert("Cadastrar", "Preencha todos os campos!")
+        if (!nome.trim() || !email.trim() || !senha.trim() || !confirmarSenha.trim()) {
+            Toast.show({
+                type: "error",
+                text1: "Cadastrar",
+                text2: "Preencha todos os campos!",
+            });
+            return;
         }
-        if (senha !== confirmarSenha){
-            return Alert.alert("Cadastrar", "As senhas não coincidem!")
+
+        if (senha !== confirmarSenha) {
+            Toast.show({
+                type: "error",
+                text1: "Cadastrar",
+                text2: "As senhas não coincidem!",
+            });
+            return;
         }
-        if (senha.length < 8){
-            return Alert.alert("Cadastrar", "A senha deve ter pelo menos 8 caracteres!")
+
+        if (senha.length < 8) {
+            Toast.show({
+                type: "error",
+                text1: "Cadastrar",
+                text2: "A senha deve ter pelo menos 8 caracteres!",
+            });
+            return;
         }
-        setCarregando(true)
+
+        setCarregando(true);
+
         try {
-            await signUp(nome, email, senha)
-            router.replace("/assistant")
+            await signUp(nome, email, senha);
+
+            Toast.show({
+                type: "success",
+                text1: "Sucesso",
+                text2: "Cadastro realizado com sucesso!",
+            });
+
+            router.replace("/assistant");
         } catch (erro: any) {
-            Alert.alert("Erro", erro.message || "Erro ao cadastrar")
+            Toast.show({
+                type: "error",
+                text1: "Erro",
+                text2: erro.message || "Erro ao cadastrar",
+            });
         } finally {
-            setCarregando(false)
+            setCarregando(false);
         }
     }
+    
     return (
         <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ ios: "padding", android: "height" })}>
             <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>

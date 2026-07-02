@@ -26,7 +26,7 @@ export default function DrawerContent() {
                 <TouchableOpacity>
                     <Image source={require("../../assets/images/logo_3.png")} style={styles.illustration}></Image>
                 </TouchableOpacity>
-                <Text style={styles.tituloText}>SkinSkan</Text>
+                <Text style={styles.tituloText}>SkinScan</Text>
                 <TouchableOpacity onPress={() => router.replace("/assistant")}>
                     <SimpleLineIcons name="logout" size={24} color="black" style={styles.logoutDrawer}/>
                 </TouchableOpacity>

@@ -3,7 +3,8 @@ import Input from "@/components/input";
 import { useAuth } from "@/context/authContext";
 import { Link, router } from "expo-router";
 import { useState } from "react";
-import { Alert, Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import Toast from "react-native-toast-message";
 
 export default function Index(){
     const [email, setEmail] = useState("")
@@ -12,6 +13,7 @@ export default function Index(){
     const { signIn } = useAuth()
 
     async function handleSignIn() {
+<<<<<<< HEAD
         console.log("handleSignIn chamado")
         
         if (!email.trim() || !password.trim()){
@@ -34,6 +36,37 @@ export default function Index(){
         } finally {
             console.log("Finally - setando carregando false")
             setCarregando(false)
+=======
+        if (!email.trim() || !password.trim()) {
+            Toast.show({
+                type: "error",
+                text1: "Entrar",
+                text2: "Preencha e-mail e senha para entrar!",
+            });
+            return;
+        }
+
+        setCarregando(true);
+
+        try {
+            await signIn(email, password);
+
+            Toast.show({
+                type: "success",
+                text1: "Sucesso",
+                text2: "Login realizado com sucesso!",
+            });
+
+            router.replace("/assistant");
+        } catch (erro: any) {
+            Toast.show({
+                type: "error",
+                text1: "Erro",
+                text2: erro.message || "Erro ao fazer login",
+            });
+        } finally {
+            setCarregando(false);
+>>>>>>> 1febddf (Salvando melhorias em renderização de erros, visualização senha input, correção erro da câmera frontal)
         }
     }
 
@@ -48,8 +81,6 @@ export default function Index(){
                     <View style={styles.containerTittle}>
                         <Text style={styles.title}>Entrar</Text>
                         <Text style={styles.subtitle}>Acesse sua conta com e-mail e senha.</Text>
-                        {/* <Text style={styles.title}>Bem-vindo ao SkinScan</Text>
-                        <Text style={styles.subtitle}>Avaliação inteligente para apoiar o cuidado ao paciente.</Text> */}
                     </View>
                     <View style={styles.form}>
                         <Input placeholder="E-mail" autoFocus keyboardType="email-address" onChangeText={(text) => (setEmail(text))}></Input>
