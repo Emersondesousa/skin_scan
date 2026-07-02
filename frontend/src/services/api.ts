@@ -1,7 +1,7 @@
 // URL base do backend
+// Em dev local: http://localhost:8000
 // Em produção: URL externa do backend no EasyPanel
-// Em dev local: vazio (proxy do Expo) ou http://localhost:8000
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || "";
+const BASE_URL = "https://teste-skinscan-back.izawzk.easypanel.host";
 
 // ==========================================
 // FUNÇÕES DE AUTENTICAÇÃO
