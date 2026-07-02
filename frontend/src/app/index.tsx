@@ -30,7 +30,7 @@ export default function Index(){
         } catch (erro: any) {
             console.log("Erro capturado:", erro)
             console.log("Mensagem:", erro.message)
-            Alert.alert("Erro no Login", erro.message || "Erro ao fazer login")
+            Alert.alert("Erro no Login", `Mensagem: ${erro.message}\nTipo: ${typeof erro}\nStack: ${erro.stack?.substring(0, 100)}`)
         } finally {
             console.log("Finally - setando carregando false")
             setCarregando(false)
