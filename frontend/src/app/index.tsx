@@ -13,30 +13,6 @@ export default function Index(){
     const { signIn } = useAuth()
 
     async function handleSignIn() {
-<<<<<<< HEAD
-        console.log("handleSignIn chamado")
-        
-        if (!email.trim() || !password.trim()){
-            console.log("Campos vazios")
-            return Alert.alert("Entrar", "Preencha e-mail e senha para entrar!")
-        }
-        
-        console.log("Tentando login com:", email, "senha length:", password.length)
-        setCarregando(true)
-        
-        try {
-            console.log("Chamando signIn...")
-            const resultado = await signIn(email, password)
-            console.log("signIn retornou:", resultado)
-            router.replace("/assistant")
-        } catch (erro: any) {
-            console.log("Erro capturado:", erro)
-            console.log("Mensagem:", erro.message)
-            Alert.alert("Erro no Login", `Mensagem: ${erro.message}\nTipo: ${typeof erro}\nStack: ${erro.stack?.substring(0, 100)}`)
-        } finally {
-            console.log("Finally - setando carregando false")
-            setCarregando(false)
-=======
         if (!email.trim() || !password.trim()) {
             Toast.show({
                 type: "error",
@@ -66,7 +42,6 @@ export default function Index(){
             });
         } finally {
             setCarregando(false);
->>>>>>> 1febddf (Salvando melhorias em renderização de erros, visualização senha input, correção erro da câmera frontal)
         }
     }
 
