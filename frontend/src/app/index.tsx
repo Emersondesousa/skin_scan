@@ -12,19 +12,27 @@ export default function Index(){
     const { signIn } = useAuth()
 
     async function handleSignIn() {
+        console.log("handleSignIn chamado")
+        
         if (!email.trim() || !password.trim()){
+            console.log("Campos vazios")
             return Alert.alert("Entrar", "Preencha e-mail e senha para entrar!")
         }
-        console.log("Tentando login com:", email)
+        
+        console.log("Tentando login com:", email, "senha length:", password.length)
         setCarregando(true)
+        
         try {
-            await signIn(email, password)
-            console.log("Login OK!")
+            console.log("Chamando signIn...")
+            const resultado = await signIn(email, password)
+            console.log("signIn retornou:", resultado)
             router.replace("/assistant")
         } catch (erro: any) {
-            console.log("Erro no login:", erro.message)
-            Alert.alert("Erro", erro.message || "Erro ao fazer login")
+            console.log("Erro capturado:", erro)
+            console.log("Mensagem:", erro.message)
+            Alert.alert("Erro no Login", erro.message || "Erro ao fazer login")
         } finally {
+            console.log("Finally - setando carregando false")
             setCarregando(false)
         }
     }
