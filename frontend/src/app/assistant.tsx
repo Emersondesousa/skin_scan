@@ -3,36 +3,61 @@ import Cabecalho from "@/components/header";
 import { InputChat } from "@/components/inputChat";
 import PhotoCam from "@/components/photo";
 import { useAuth } from "@/context/authContext";
+import { useChat } from "@/context/chatContext";
 import { usePhoto } from "@/context/photoContext";
 import { analisarLesao } from "@/services/api";
-import { useState } from "react";
-import { Alert, KeyboardAvoidingView, Platform, ScrollView, StyleSheet } from "react-native";
+import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { SafeAreaView } from 'react-native-safe-area-context';
+import Toast from "react-native-toast-message";
 
 export default function agentIa() {
-    const [resposta, setResposta] = useState<string | null>(null)
-    const [carregando, setCarregando] = useState(false)
     const { photo, setPhoto } = usePhoto()
     const { token } = useAuth()
+    const { resposta, setResposta, carregando, setCarregando } = useChat();
+
+    function handleNovoChat() {
+        setPhoto("");
+        setResposta(null);
+        setCarregando(false);
+    }
 
     async function handleEnviar(texto: string) {
         if (!photo) {
-            return Alert.alert("Atenção", "Tire uma foto da lesão primeiro!")
-        }
-        if (!token) {
-            return Alert.alert("Erro", "Você precisa estar logado")
+            Toast.show({
+                type: "error",
+                text1: "Atenção",
+                text2: "Tire uma foto da lesão primeiro!",
+            });
+            return;
         }
 
-        setCarregando(true)
-        setResposta(null)
+        if (!token) {
+            Toast.show({
+                type: "error",
+                text1: "Erro",
+                text2: "Você precisa estar logado",
+            });
+            return;
+        }
+
+        const fotoParaEnviar = photo;
+        setPhoto("");
+        setCarregando(true);
+        setResposta(null);
+
         try {
-            const resultado = await analisarLesao(token, photo, texto)
-            setResposta(resultado.resposta_md)
+            const resultado = await analisarLesao(token, photo, texto);
+            setResposta(resultado.resposta_md);
+
         } catch (erro: any) {
-            Alert.alert("Erro", erro.message || "Falha ao analisar lesão")
+            Toast.show({
+                type: "error",
+                text1: "Erro",
+                text2: erro.message || "Falha ao analisar lesão",
+            });
         } finally {
-            setCarregando(false)
+            setCarregando(false);
         }
     }
     

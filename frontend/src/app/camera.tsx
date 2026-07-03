@@ -4,13 +4,14 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { CameraType, CameraView, useCameraPermissions } from 'expo-camera';
 import { router } from 'expo-router';
 import { useRef, useState } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function CameraPicture() {
     const cameraRef = useRef<CameraView>(null);
     const [permission, requestPermission] = useCameraPermissions();
     const [facing, setFacing] = useState<CameraType>('back');
     const { setPhoto } = usePhoto();
+    const [carregando, setCarregando] = useState(false)
 
     const handlePic = async () => {
         const photo = await cameraRef.current?.takePictureAsync();
@@ -20,6 +21,7 @@ export default function CameraPicture() {
             router.back();
         };
         const toggleCameraFacing = () => {
+            setCarregando(true);
             setFacing(prev => (prev === 'back' ? 'front' : 'back'));
         };
 
@@ -29,7 +31,7 @@ export default function CameraPicture() {
         }
     };
 
-    if (!permission) return <View />; // Carregando
+    if (!permission) return <View />;
     if (!permission.granted) {
         return (
             <View style={styles.containerPermission}>
@@ -45,7 +47,12 @@ export default function CameraPicture() {
     return (
         <View style={styles.container}>
             <Cabecalho></Cabecalho>
-            <CameraView ref={cameraRef} facing={facing} style={styles.container} />
+            <CameraView key={facing} ref={cameraRef} facing={facing} style={styles.container} onCameraReady={() => setCarregando(false)} />
+            {carregando && (
+                <View style={styles.overlayLoading}>
+                    <ActivityIndicator size="large" color="#008080" />
+                </View>
+            )}
             <TouchableOpacity style={styles.button} onPress={handlePic} />
             <TouchableOpacity style={styles.buttonVirarCam} onPress={toggleCameraFacing}>
                 <MaterialIcons name="cameraswitch" size={44} color="white"/>  
@@ -110,5 +117,14 @@ const styles = StyleSheet.create({
         position: 'absolute',
         marginLeft: 280,
         borderRadius: 35,
-    }   
+    },
+    overlayLoading: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },   
 })

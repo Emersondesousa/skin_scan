@@ -1,8 +1,11 @@
 import DrawerContent from "@/components/drawerOptions";
 import { AuthProvider, useAuth } from "@/context/authContext";
+import { ChatProvider } from "@/context/chatContext";
 import { PhotoProvider } from "@/context/photoContext";
 import { Drawer } from "expo-router/drawer";
 import { ActivityIndicator, View } from "react-native";
+import Toast from "react-native-toast-message";
+
 
 function LayoutInterno() {
   const { usuario, isLoading } = useAuth();
@@ -30,7 +33,10 @@ export default function Layout() {
   return (
     <AuthProvider>
       <PhotoProvider>
-        <LayoutInterno />
+        <ChatProvider>
+          <LayoutInterno />
+          <Toast />
+        </ChatProvider>
       </PhotoProvider>
     </AuthProvider>
   );

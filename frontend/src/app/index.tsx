@@ -3,7 +3,8 @@ import Input from "@/components/input";
 import { useAuth } from "@/context/authContext";
 import { Link, router } from "expo-router";
 import { useState } from "react";
-import { Alert, Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Image, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, View } from "react-native";
+import Toast from "react-native-toast-message";
 
 export default function Index(){
     const [email, setEmail] = useState("")
@@ -12,28 +13,35 @@ export default function Index(){
     const { signIn } = useAuth()
 
     async function handleSignIn() {
-        console.log("handleSignIn chamado")
-        
-        if (!email.trim() || !password.trim()){
-            console.log("Campos vazios")
-            return Alert.alert("Entrar", "Preencha e-mail e senha para entrar!")
+        if (!email.trim() || !password.trim()) {
+            Toast.show({
+                type: "error",
+                text1: "Entrar",
+                text2: "Preencha e-mail e senha para entrar!",
+            });
+            return;
         }
-        
-        console.log("Tentando login com:", email, "senha length:", password.length)
-        setCarregando(true)
-        
+
+        setCarregando(true);
+
         try {
-            console.log("Chamando signIn...")
-            const resultado = await signIn(email, password)
-            console.log("signIn retornou:", resultado)
-            router.replace("/assistant")
+            await signIn(email, password);
+
+            Toast.show({
+                type: "success",
+                text1: "Sucesso",
+                text2: "Login realizado com sucesso!",
+            });
+
+            router.replace("/assistant");
         } catch (erro: any) {
-            console.log("Erro capturado:", erro)
-            console.log("Mensagem:", erro.message)
-            Alert.alert("Erro no Login", `Mensagem: ${erro.message}\nTipo: ${typeof erro}\nStack: ${erro.stack?.substring(0, 100)}`)
+            Toast.show({
+                type: "error",
+                text1: "Erro",
+                text2: erro.message || "Erro ao fazer login",
+            });
         } finally {
-            console.log("Finally - setando carregando false")
-            setCarregando(false)
+            setCarregando(false);
         }
     }
 
@@ -48,8 +56,6 @@ export default function Index(){
                     <View style={styles.containerTittle}>
                         <Text style={styles.title}>Entrar</Text>
                         <Text style={styles.subtitle}>Acesse sua conta com e-mail e senha.</Text>
-                        {/* <Text style={styles.title}>Bem-vindo ao SkinScan</Text>
-                        <Text style={styles.subtitle}>Avaliação inteligente para apoiar o cuidado ao paciente.</Text> */}
                     </View>
                     <View style={styles.form}>
                         <Input placeholder="E-mail" autoFocus keyboardType="email-address" onChangeText={(text) => (setEmail(text))}></Input>
