@@ -99,12 +99,19 @@ def conectar_chromadb() -> Chroma:
     return vector_store
 
 def salvar_no_chromadb(vector_store: Chroma, chunks: list):
-    """Salva os chunks no ChromaDB."""
+    """Salva os chunks no ChromaDB em lotes (limite do servidor: 5461)."""
     print(f"\n[SALVANDO] {len(chunks)} chunks no ChromaDB...")
     
-    vector_store.add_documents(chunks)
+    TAMANHO_LOTE = 1000
+    total_salvo = 0
     
-    print(f"[OK] {len(chunks)} chunks salvos com sucesso!")
+    for i in range(0, len(chunks), TAMANHO_LOTE):
+        lote = chunks[i:i + TAMANHO_LOTE]
+        vector_store.add_documents(lote)
+        total_salvo += len(lote)
+        print(f"  [OK] Lote {i//TAMANHO_LOTE + 1}: {len(lote)} chunks (total: {total_salvo}/{len(chunks)})")
+    
+    print(f"[OK] {total_salvo} chunks salvos com sucesso!")
 
 def main():
     # Configurar argumentos da linha de comando

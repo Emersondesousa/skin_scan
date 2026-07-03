@@ -56,9 +56,10 @@ def get_llm_visao():
     """Retorna o modelo de visão (Kimi-k2.5)."""
     global _llm_visao
     if _llm_visao is None:
-        print(f"[LLM] Inicializando Kimi-k2.5...")
+        model_llm_imagem = "kimi-k2.7-code"  # Modelo de visão para análise de imagens
+        print(f"[LLM] Inicializando {model_llm_imagem}...")
         _llm_visao = ChatOpenAI(
-            api_key=api_key_opencode, base_url=base_url_opencode, model="kimi-k2.5"
+            api_key=api_key_opencode, base_url=base_url_opencode, model=model_llm_imagem
         )
     return _llm_visao
 
@@ -66,9 +67,10 @@ def get_llm_texto():
     """Retorna o modelo de texto (DeepSeek-V4-Flash)."""
     global _llm_texto
     if _llm_texto is None:
-        print(f"[LLM] Inicializando DeepSeek-V4-Flash...")
+        model_llm_texto = "deepseek-v4-flash"  # Modelo de texto para análise de texto
+        print(f"[LLM] Inicializando {model_llm_texto}...")
         _llm_texto = ChatOpenAI(
-            api_key=api_key_opencode, base_url=base_url_opencode, model="deepseek-v4-flash"
+            api_key=api_key_opencode, base_url=base_url_opencode, model=model_llm_texto
         )
     return _llm_texto
 
