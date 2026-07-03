@@ -23,44 +23,20 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: "row",
         alignItems: "center",
-        borderWidth: 1,
-        borderColor: "#DCDCDC",
+        borderWidth: 0,
         borderRadius: 8,
         backgroundColor: "#f5f6f8", 
         height: 48,
         paddingHorizontal: 12,
-        overflow: 'hidden', 
     },
     input: {
         flex: 1,
         fontSize: 16,
-        color: "#333", 
-        backgroundColor: "transparent", 
-        height: "100%", 
-        paddingVertical: 0, 
+        height: "90%", 
+        paddingVertical: 0,
+        outlineStyle: "none" as any
     },
     icon: {
         paddingLeft: 8,
     },
 })
-// const styles = StyleSheet.create({
-//     container: {
-//         flexDirection: "row",
-//         alignItems: "center",
-//         borderWidth: 1,
-//         borderColor: "#DCDCDC",
-//         borderRadius: 8,
-//         backgroundColor: "#f5f6f8d5", // Cor de fundo principal
-//         height: 48,
-//         paddingHorizontal: 12,
-//     },
-//     input: {
-//         flex: 1,
-//         fontSize: 16,
-//         backgroundColor: "transparent", // Mude aqui para transparente
-//         height: "100%", // Garante que ele ocupe toda a altura do container
-//     },
-//     icon: {
-//         paddingLeft: 8,
-//     },
-// })

@@ -3,20 +3,24 @@ import Cabecalho from "@/components/header";
 import { InputChat } from "@/components/inputChat";
 import PhotoCam from "@/components/photo";
 import { useAuth } from "@/context/authContext";
+import { useChat } from "@/context/chatContext";
 import { usePhoto } from "@/context/photoContext";
 import { analisarLesao } from "@/services/api";
-import { useState } from "react";
 import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Toast from "react-native-toast-message";
 
 export default function agentIa() {
-    const [resposta, setResposta] = useState<string | null>(null)
-    const [carregando, setCarregando] = useState(false)
     const { photo, setPhoto } = usePhoto()
     const { token } = useAuth()
+    const { resposta, setResposta, carregando, setCarregando } = useChat();
 
+    function handleNovoChat() {
+        setPhoto("");
+        setResposta(null);
+        setCarregando(false);
+    }
 
     async function handleEnviar(texto: string) {
         if (!photo) {
@@ -37,12 +41,13 @@ export default function agentIa() {
             return;
         }
 
+        const fotoParaEnviar = photo;
+        setPhoto("");
         setCarregando(true);
         setResposta(null);
 
         try {
             const resultado = await analisarLesao(token, photo, texto);
-            setPhoto("");
             setResposta(resultado.resposta_md);
 
         } catch (erro: any) {

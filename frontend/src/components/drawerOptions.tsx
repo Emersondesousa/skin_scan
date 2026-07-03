@@ -1,3 +1,5 @@
+import { useChat } from "@/context/chatContext";
+import { usePhoto } from "@/context/photoContext";
 import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
 import { router } from "expo-router";
 import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
@@ -20,6 +22,14 @@ const HISTORY = [
 ];
 
 export default function DrawerContent() {
+    const { novoChat } = useChat();
+    const { setPhoto } = usePhoto();
+
+    function handleNovoChat() {
+        novoChat();
+        setPhoto("");
+        router.replace("/assistant");
+    }
     return (
         <View style={styles.drawer}>
             <View style={styles.titulo}>
@@ -33,7 +43,7 @@ export default function DrawerContent() {
             </View>
             <View style={styles.container}>
                 <MenuItem label="Início" onPress={() => router.push("/assistant")}/>
-                <MenuItem label="Novo Chat" onPress={() => console.log("ok")}/>
+                <MenuItem label="Novo Chat" onPress={handleNovoChat} />
             </View>
             <View style={styles.historicoContainer}>
                 <Text style={styles.label}>Histórico</Text>
