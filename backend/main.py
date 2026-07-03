@@ -131,8 +131,14 @@ async def analisar_lesao(
         # PASSO B: RAG (Busca no Banco de Dados)
         # ---------------------------------------------------------
         # A IA viu algo (ex: "queimadura com bolhas"). Jogamos essa frase no banco de dados.
-        # O ChromaDB devolve os 'k=2' pedaços de texto do seu manual médico que mais combinam com isso.
-        resultados_busca = vector_store.similarity_search(analise_visual, k=2)
+        # O ChromaDB devolve os 'k=5' pedaços de texto do seu manual médico que mais combinam com isso.
+        resultados_busca = vector_store.similarity_search(analise_visual, k=5)
+        
+        print(f"[RAG] Busca por: '{analise_visual}'")
+        print(f"[RAG] Encontrados {len(resultados_busca)} resultados:")
+        for i, doc in enumerate(resultados_busca):
+            print(f"[RAG] Resultado {i+1}: {doc.page_content[:80]}...")
+        print(f"[RAG] Tamanho total do contexto: {sum(len(d.page_content) for d in resultados_busca)} chars")
 
         # Juntamos os textos encontrados em um único grande parágrafo para enviar à IA
         contexto_rag = "\n\n".join([doc.page_content for doc in resultados_busca])
@@ -143,7 +149,7 @@ async def analisar_lesao(
         # Agora o DeepSeek entra em ação. Ele recebe uma "personalidade" (SystemMessage).
         mensagem_sistema = SystemMessage(
             content="""
-                Você é um assistente de primeiros socorros baseado exclusivamente em um banco de dados vetorial.
+                Você é um assistente de primeiros socorros baseado em um banco de dados vetorial.
 
                 Responda APENAS em JSON válido.
 
@@ -152,16 +158,15 @@ async def analisar_lesao(
                 "resposta_md": "texto em Markdown aqui"
                 }
 
-                Regras obrigatórias:
+                Regras:
                 - O valor de "resposta_md" deve ser um texto em Markdown.
-                - Use quebras de linha reais dentro do texto Markdown, não escreva barras invertidas manualmente.
-                - Use somente informações presentes no CONTEXTO OFICIAL.
-                - Não use conhecimento geral.
-                - Não complete lacunas.
-                - Não recomende condutas, especialistas, urgência ou tratamentos que não estejam explicitamente no CONTEXTO OFICIAL.
-                - Se o CONTEXTO OFICIAL não trouxer informação suficiente sobre a lesão identificada, diga "Informação não encontrada no banco de dados" nos tópicos correspondentes.
-                - A identificação visual da lesão pode ser mencionada como hipótese visual, mas não deve ser tratada como diagnóstico definitivo.
-                - Nunca invente procedimentos médicos.
+                - Use quebras de linha reais dentro do texto Markdown.
+                - Use PRINCIPALMENTE as informações presentes no CONTEXTO OFICIAL.
+                - Se o contexto tiver informações relevantes, mesmo que parcial, use-as.
+                - Organize a resposta em seções: Identificação, Sinais e Sintomas, e Primeiros Socorros.
+                - A identificação visual da lesão é uma hipótese, não um diagnóstico definitivo.
+                - Se o contexto não trouxer informação sobre um tópico específico, diga "Informação não disponível" naquele tópico.
+                - Não invente procedimentos médicos que não estejam no contexto.
             """
         )
 

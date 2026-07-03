@@ -25,8 +25,8 @@ load_dotenv()
 CHROMADB_HOST = os.getenv("CHROMADB_HOST", "localhost")
 CHROMADB_PORT = int(os.getenv("CHROMADB_PORT", "443"))
 CHROMADB_SSL = os.getenv("CHROMADB_SSL", "true").lower() == "true"
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 50
+CHUNK_SIZE = 1500
+CHUNK_OVERLAP = 200
 
 def carregar_pdfs(pasta: str) -> list:
     """Carrega todos os PDFs de uma pasta."""
