@@ -14,7 +14,7 @@ import Toast from "react-native-toast-message";
 export default function agentIa() {
     const { photo, setPhoto } = usePhoto()
     const { token } = useAuth()
-    const { resposta, setResposta, carregando, setCarregando } = useChat();
+    const { resposta, setResposta, carregando, setCarregando, fotoDiagnostico, setFotoDiagnostico } = useChat();
 
     function handleNovoChat() {
         setPhoto("");
@@ -42,12 +42,13 @@ export default function agentIa() {
         }
 
         const fotoParaEnviar = photo;
+        setFotoDiagnostico(fotoParaEnviar)
         setPhoto("");
         setCarregando(true);
         setResposta(null);
 
         try {
-            const resultado = await analisarLesao(token, photo, texto);
+            const resultado = await analisarLesao(token, fotoParaEnviar, texto);
             setResposta(resultado.resposta_md);
 
         } catch (erro: any) {
@@ -67,7 +68,7 @@ export default function agentIa() {
                     <Cabecalho></Cabecalho>
                     <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.select({ios: "padding", android: "padding"})}>
                         <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsHorizontalScrollIndicator={false}>
-                            <Diagnostico foto={photo || undefined} resposta={resposta || undefined} carregando={carregando}></Diagnostico>
+                            <Diagnostico foto={fotoDiagnostico || undefined} resposta={resposta || undefined} carregando={carregando}></Diagnostico>
                         </ScrollView>
                         <PhotoCam></PhotoCam>
                         <InputChat style={styles.input} placeholder="Descreva a lesão..." onSend={handleEnviar}></InputChat>

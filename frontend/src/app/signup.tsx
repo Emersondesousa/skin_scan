@@ -70,8 +70,9 @@ export default function SignUp(){
             <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
                 <View style={styles.container}>
                     <View style={styles.containerLogo}>
-                        <Image
-                        source={require("../../assets/images/logo_2.png")} style={styles.illustration}/>
+                        <View style={styles.logoContent}>
+                            <Image source={require("../../assets/images/logo_2.png")} style={styles.illustration}/>
+                        </View>
                     </View>
                     <View style={styles.containerTittle}>
                         <Text style={styles.title}>Cadastrar</Text>
@@ -105,6 +106,12 @@ const styles = StyleSheet.create({
         borderBottomRightRadius: 1000,
         transform: [{ scaleX: 1.5 }],
     },
+    logoContent: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        transform: [{ scaleX: 1 / 1.5 }],
+    },
     containerTittle: {
     },
     illustration: {
@@ -112,7 +119,6 @@ const styles = StyleSheet.create({
         height: 230,
         borderRadius: 60,
         resizeMode: "contain",
-        marginTop: 45,
     },
     title: {
         fontSize: 25,

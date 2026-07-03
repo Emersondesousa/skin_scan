@@ -14,7 +14,7 @@ export default function CameraPicture() {
     const [carregando, setCarregando] = useState(false)
 
     const handlePic = async () => {
-        const photo = await cameraRef.current?.takePictureAsync();
+        const photo = await cameraRef.current?.takePictureAsync({quality: 1, skipProcessing: false});
 
         if (!photo) return;
             setPhoto(photo.uri);
